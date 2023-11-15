@@ -28,8 +28,8 @@ in various fields of automotive engineering, including ergonomic design and
 safety evaluation. Finally, the prospects and challenges of DHMs are discussed
 to provide a novel perspective to promote the advancement of this field.
 
-[Download paper here](http://www-personal.umich.edu/~peijli/files/2023_IJVD-132836_TAFPV.pdf)
+### [Download paper here](http://www-personal.umich.edu/~peijli/files/2023_IJVD-132836_TAFPV.pdf)
 
-## Recommended citation
+<!-- ## Recommended citation
 
-Li J, Li P (2023) Digital human models in automotive engineering applications: a bibliometric analysis of research progress and prospects. Accepted by the International Journal of Vehicle Design.
+Li J, Li P (2023) Digital human models in automotive engineering applications: a bibliometric analysis of research progress and prospects. Accepted by the International Journal of Vehicle Design. -->

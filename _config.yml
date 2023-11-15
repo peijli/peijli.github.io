@@ -51,7 +51,7 @@ atom_feed:
   path: # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification:
+google_site_verification: "eEvmUKJY6dNZ2dpqffTzQRzN3DPnwY_a3aGEKYOC2_M"
 bing_site_verification:
 alexa_site_verification:
 yandex_site_verification:
@@ -88,7 +88,7 @@ author:
   googlescholar: "https://scholar.google.com/citations?user=m96juKIAAAAJ&hl=en"
   email: "peijli@umich.edu"
   researchgate: "https://www.researchgate.net/profile/Peijing-Li-3"
-  uri:
+  uri: "http://www-personal.umich.edu/~peijli/"
   bitbucket:
   codepen:
   dribbble:
@@ -101,14 +101,14 @@ author:
   instagram:
   impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
-  linkedin:
+  linkedin: "http://linkedin.com/in/peijing-li"
   orcid: "https://orcid.org/0000-0001-8517-6109"
   pinterest:
   soundcloud:
   stackoverflow: # http://stackoverflow.com/users/123456/username
   steam:
   tumblr:
-  twitter: "ironiaMarisa"
+  # twitter: "ironiaMarisa"
   vine:
   weibo:
   xing:

@@ -12,10 +12,31 @@ redirect_from:
 
 I am a fourth-year undergraduate student at the University of Michigan College of Engineering, 
 majoring in [Computer Science](https://cse.engin.umich.edu) and minoring in [Civil Engineering](https://cee.engin.umich.edu).
+I am also enrolled in the U-M [College of Engineering Honors Program](https://honors.engin.umich.edu).
+
+I am planning to pursue a Ph.D. degree starting in Fall 2024, with a focus on heterogeneous computer architecture and high-level synthesis.
+
+## Experiences
+
+
+
+## Narrative
+
+I have chosen the career path of an engineer -- or more specifically, a computer scientist -- because of my passion for technology. 
+I want to not only learn about the most cutting-edge pieces of computer software and hardware but also have the opportunity to see them in action. 
+Meanwhile, I also crave that sense of accomplishment after solving difficult problems that may prove consequential to the society around me.
+
+I am also practically the only person I know combining a Computer Science major with a Civil Engineering minor. 
+I wish to go above and beyond what's required for a computer science degree and want to venture deeper into the interdisciplinary application of computing. 
+I believe that transportation and infrastructure are two such places where computer technologies can make an impact. 
+It certainly helps, at the same time, that I have been deeply interested in the design and planning of infrastructure from an early age; 
+there was no better pastime for me as a kid than pouring over maps both old and new in my family's living room, and envisioning the extensive road networks around my city and what sights await me around each block.
+
+## Service and Extracurricular
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: research, talks, academics, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
-A data-driven personal website
+<!-- A data-driven personal website
 ======
 
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
@@ -58,4 +79,4 @@ Example: editing a markdown file for a talk
 For more info
 ------
 
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
