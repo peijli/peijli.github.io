@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-> Excelling in the magic of turing low-quality caffeine into high-quality engineering solutions for 22 years.
+> Excelling in the magic of turning low-quality caffeine into high-quality engineering solutions for 22 years.
 
 I am a fourth-year undergraduate student at the University of Michigan College of Engineering, 
 majoring in [Computer Science](https://cse.engin.umich.edu) and minoring in [Civil Engineering](https://cee.engin.umich.edu).
