@@ -9,11 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-For a more detailed listing of my academic experiences and qualifications, please [download PDF version of CV here](http://www-personal.umich.edu/~peijli/files/CV.pdf)
+For a more detailed listing of my academic experiences and qualifications, please [download PDF version of the CV here](http://www-personal.umich.edu/~peijli/files/CV.pdf)
 
 ## Education
 
-### B.S.E. in Computer Science, University of Michigan, Ann Arbor, 2024 (expected)
+### B.S.E. in Computer Science, University of Michigan, May 2024 (expected)
 
 - Minor in Civil Engineering
 - Enrolled in the College of Engineering Honors Program

@@ -13,70 +13,59 @@ redirect_from:
 I am a fourth-year undergraduate student at the University of Michigan College of Engineering, 
 majoring in [Computer Science](https://cse.engin.umich.edu) and minoring in [Civil Engineering](https://cee.engin.umich.edu).
 I am also enrolled in the U-M [College of Engineering Honors Program](https://honors.engin.umich.edu).
-
 I am planning to pursue a Ph.D. degree starting in Fall 2024, with a focus on heterogeneous computer architecture and high-level synthesis.
+
+I am an extrovert, a communicator, and a team player.
+I believe that any successful person or team would "attack each day with an enthusiasm unknown to mankind," as U-M's head football coach Jim Harbaugh proclaims, and I expect nothing less from myself.
+Meanwhile, I believe that my diverse experiences in software testing, computer architecture, and transportation engineering, and the interdisciplinary perspective I have gained from them, form my greatest assets.
 
 ## Experiences
 
+Please refer to the [Research](http://www-personal.umich.edu/~peijli/research/) page for a detailed list of my research experiences and projects, and to the [Academics](http://www-personal.umich.edu/~peijli/academics/) page for a detailed list of my coursework and academic projects.
 
+My undergraduate research experiences were very much a product of the circumstances I was in.
+The COVID-19 pandemic seriously disrupted my freshman and sophomore years of college, as well as access to certain research opportunities that I might otherwise be aware of.
+However, I was still fortunate enough to have been able to work on a variety of projects that I am passionate about, despite them not necessarily being in my primary field of interest.
+These projects are mostly related to the transportation engineering field, ranging from connected vehicle cybersecurity to human body modeling.
+Beyond the concrete deliverables I produced in the form of two academic papers and a conference presentation, I also gained valuable transferrable skills.
+These include the ability to work independently and in a team, the ability to pinpoint research problems and design solutions, and the ability to communicate my ideas and results effectively.
 
-## Narrative
+In terms of work experience, I worked as a software test engineer intern at [ASML](https://www.asml.com/en) in San Jose, CA during the summer of 2023, where I automated the Brion division's automated regression testing pipeline for computational lithography software.
+Before that, I worked as an instructional aide for the [Department of Civil and Environmental Engineering](https://cee.engin.umich.edu) at the University of Michigan during the winter of 2023, where I managed lab sessions and office hours for the CEE 375: Sensors and Circuits course.
+Introducing CEE students to the world of sensors and signal processing was a rewarding experience for me, and I am glad to have been able to help them with their projects.
+I spent the summer after my freshman year of college at the Dell EMC subsidiary in my hometown of Shanghai, China, where I performed integration testing on the [VxRail hyperconverged infrastructure](https://www.dell.com/en-us/dt/converged-infrastructure/vxrail/index.htm) software and the [VMware Cloud Foundation software stack](https://www.vmware.com/products/cloud-foundation.html).
 
-I have chosen the career path of an engineer -- or more specifically, a computer scientist -- because of my passion for technology. 
-I want to not only learn about the most cutting-edge pieces of computer software and hardware but also have the opportunity to see them in action. 
-Meanwhile, I also crave that sense of accomplishment after solving difficult problems that may prove consequential to the society around me.
+## Academic Interest Narrative
+
+I have chosen the career path of an engineer -- or more specifically, a computer architect -- because of my passion for technology, as well as my desire to share that passion with others.
+I want to create the next generation of computer systems that will put the brilliance of modern software to its full potential, as well as bring the power of computing to the masses.
+In the meantime, my other ambition is to create a world where computer architecture is accessible to all, as much as software development is today.
+I believe that the path to get there is through more efficient and more accessible high-level synthesis tools to lower time and monetary costs for designing new domain-specific hardware accelerators.
 
 I am also practically the only person I know combining a Computer Science major with a Civil Engineering minor. 
-I wish to go above and beyond what's required for a computer science degree and want to venture deeper into the interdisciplinary application of computing. 
+I wish to go above and beyond what's required for a computer science degree and want to venture deeper into the interdisciplinary application of computing.
 I believe that transportation and infrastructure are two such places where computer technologies can make an impact. 
-It certainly helps, at the same time, that I have been deeply interested in the design and planning of infrastructure from an early age; 
-there was no better pastime for me as a kid than pouring over maps both old and new in my family's living room, and envisioning the extensive road networks around my city and what sights await me around each block.
+In particular, I believe that if I can put more efficient, reliable, and secure computer systems on the road, I can make a difference by enabling each entity in the transportation system to make use of ever more complex and accurate data and algorithms to make better decisions.
 
-## Service and Extracurricular
+## Service and Leadership
 
-<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: research, talks, academics, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
+I have been an active member of the [Tau Beta Pi](https://www.tbp.org/home.cfm) [Michigan Gamma Chapter](https://tbp.engin.umich.edu) since the winter of 2023.
+I have gone on multiple volunteering events with the chapter, highlighed by my commitment to the Ann Arbor Natural Area Preservation's [Stewardship Workdays](https://www.a2gov.org/departments/Parks-Recreation/NAP/volunteering/Pages/StewardshipWorkdays.aspx) program.
 
-<!-- A data-driven personal website
-======
+The University of Michigan College of Engineering Honors Program has also connected me with several volunteering opportunities.
+The most notable of these was my participation in the Alternative Spring Break, where I traveled to the [Habitat for Humanity](https://www.habitat.org) site in [Des Moines, IA](https://gdmhabitat.org) to build houses for low-income families and put some of my civil engineering know-how to use.
 
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I was a member of the University of Michigan [Engineering Student Government](https://esg.engin.umich.edu) from the fall of 2020 to the winter of 2022.
+As a member of the Student Life Committee, I was most notably involved with organizing wellness-related events, such as mindfulness sessions and nature walks in the [Nichols Arboretum](https://mbgna.umich.edu/nichols-arboretum/).
+I believe those were the best ways I could serve my fellow students during the thick of the COVID-19 pandemic.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, research, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Extracurriculars and Hobbies
 
-Getting started
-======
+This is the part where I get to talk about where I have fun outside of engineering!
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right.
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+In terms of competitive team sports, I have been a member of the University of Michigan [Club Cycling Team](https://www.umcycling.org) since the fall of 2021.
+I have been part of multiple teams winning the road cycling championship of the [Midwest Collegiate Cycling Conference](https://www.mwccc.org).
+In the meantime, I am also a huge University of Michigan sports fan -- there's no sporting event that I won't watch if my Wolverines are playing, and the amount of school spirit I have is probably unhealthy.
 
-Site-wide configuration
-------
-
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header.
-
-Create content & metadata
-------
-
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications,_talks, _posts,_academics, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the_talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my research and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons.
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+When it comes to slightly more fringe and frivolous interests, I have also been incredibly invested in the [Touhou Project](https://en.touhouwiki.net/wiki/Touhou_Wiki) game series out of Japan.
+Try to catch me at an anime convention near you if you can!
