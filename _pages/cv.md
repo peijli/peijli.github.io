@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download PDF version of CV here]()
+
 Education
 ======
 
