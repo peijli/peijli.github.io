@@ -22,7 +22,7 @@ author_profile: true
 | CEE 375 | Sensors and Circuits | Jeff Scruggs | Winter 2022 |
 | ENGR 255 | [Introductory Multidisciplinary Engineering Project](https://mdp.engin.umich.edu) | Ivo Dinov | Winter 2021 |
 
-## Course Projects
+## Course Projects and Talks
 
 {% include base_path %}
 
@@ -30,12 +30,10 @@ author_profile: true
 {% include archive-single.html %}
 {% endfor %}
 
-## Talks
+<!-- ## Talks
 
-{% if site.talkmap_link == true %}
-
-{% endif %}
+{% include base_path %}
 
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
-{% endfor %}
+{% endfor %} -->
