@@ -28,7 +28,12 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+$handwritten                : 'Hi Melody', sans-serif;
+
 $global-font-family         : $sans-serif;
+// $global-font-family         : $handwritten;
 $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 
@@ -48,6 +53,7 @@ $type-size-8                : 0.625em;  // ~10px
    ========================================================================== */
 
 $gray                       : #7a8288;
+// $gray                       : #ffcb05;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
@@ -60,11 +66,20 @@ $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
-$primary-color              : #7a8288;
+// additional highlight colors
+$highlight-color            : #ffcb05;
+$highlight-color-dark       : mix(#000, $highlight-color, 40%);
+$highlight-color-darker     : mix(#000, $highlight-color, 60%);
+$highlight-color-light      : mix(#fff, $highlight-color, 50%);
+$highlight-color-lighter    : mix(#fff, $highlight-color, 90%);
+
+$primary-color              : #00274c;
+// $primary-color              : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$info-color                 : #3999b6;
+// $info-color                 : #52adc8;
 
 /* brands */
 $behance-color              : #1769FF;
