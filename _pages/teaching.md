@@ -11,6 +11,8 @@ author_profile: true
 
 | Course Number | Course Title | Instructor | Semester Taken |
 |---|---|---|---|
+| EECS 489 | [Computer Networks](http://www.eecs489.org) | Mosharaf Chowdhury | Winter 2024 |
+| MATH 561 | Linear Programming | Ruiwei Jiang | Winter 2024 |
 | EECS 573 | [Microarchitecture](https://sites.google.com/umich.edu/eecs573-f2023/home) | Todd Austin | Fall 2023 |
 | EECS 583 | [Advanced Compiler Construction](https://web.eecs.umich.edu/~mahlke/courses/583f23/index.html) | Scott Mahlke | Fall 2023 |
 | CEE 552 | Travel Analysis and Forecasting | Atiyya Shaw | Fall 2023 |
