@@ -70,4 +70,4 @@ In the meantime, I am also a huge University of Michigan sports fan -- there's n
 When it comes to slightly more fringe and frivolous interests, I have also been incredibly invested in the [Touhou Project](https://en.touhouwiki.net/wiki/Touhou_Wiki) game series out of Japan.
 Try to catch me at an anime convention near you if you can!
 
-> Check out the source code of this website [here](https://github.com/pl-mich/peijli.github.io)]
+> Check out the source code of this website [here](https://github.com/pl-mich/peijli.github.io).
