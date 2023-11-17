@@ -18,7 +18,8 @@ Learning objectives for this lecture include:
 - Review current academic research and commercial products that implement the basic architecture paradigms
 - Reflect on possible next steps in accelerator design
 
+> Please reach out to me if you are interested in accessing the recording or the slides for this talk.
 
-### [Download the slides for this talk](http://www-personal.umich.edu/~peijli/files/EECS_573_Lecture.pdf)
+<!-- ### [Download the slides for this talk](http://www-personal.umich.edu/~peijli/files/EECS_573_Lecture.pdf)
 
-#### [Access the recording for this talk (U-M login required)](https://leccap.engin.umich.edu/leccap/player/r/bSVyE6)
+#### [Access the recording for this talk (U-M login required)](https://leccap.engin.umich.edu/leccap/player/r/bSVyE6) -->

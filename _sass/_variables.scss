@@ -12,9 +12,12 @@ $doc-font-size              : 16;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Hi+Melody&family=Twinkle+Star&family=Yusei+Magic&display=swap');
+
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$sans-serif                 : "Atkinson Hyperlegible", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -28,13 +31,12 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
 $handwritten                : 'Hi Melody', sans-serif;
 
 $global-font-family         : $sans-serif;
 // $global-font-family         : $handwritten;
 $header-font-family         : $sans-serif;
+// $header-font-family         : "Twinkle Star", sans-serif;
 $caption-font-family        : $serif;
 
 /* type scale */

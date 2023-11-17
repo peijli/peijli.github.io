@@ -17,8 +17,10 @@ We implemented a variation of this architecture where the code base enables the 
 We also trained and tested different instances of this network with varying levels of depth on a dataset of retinal imaging scans, comparing their time and space complexities and training and validation accuracies, not only with one another but also with a fixed-depth baseline model.
 It can be observed that as the depth in layers of the U-Net++ network increases, the time complexity of training the network increases linearly and the space complexity of the network in terms of model parameters increases exponentially; however, only marginal increases in training and validation accuracies can be gained after the model is more than four layers deep.
 
-### [Download the report for this project](http://www-personal.umich.edu/~peijli/files/EECS_442_Final_Project.pdf)
+> Please reach out to me if you are interested in reading the full report or accessing the source code for this project.
+
+<!-- ### [Download the report for this project](http://www-personal.umich.edu/~peijli/files/EECS_442_Final_Project.pdf)
 
 The source code for this project can be found both in [this direct download link](http://www-personal.umich.edu/~peijli/files/unet++.ipynb) and in [this GitHub gist](https://gist.github.com/pl-mich/8fe347681e1150b8484986afc5757962).
 
-The dataset for this project can be found in [this GitHub release page](https://github.com/pl-mich/peijli.github.io/releases/download/Lfs/Drishti-GS1-EECS442-FA22.zip).
+The dataset for this project can be found in [this GitHub release page](https://github.com/pl-mich/peijli.github.io/releases/download/Lfs/Drishti-GS1-EECS442-FA22.zip). -->
