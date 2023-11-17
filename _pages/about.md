@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Peijing Li, U-M CSE '24, aspiring researcher."
+title: "Peijing Li, aspiring computer architect."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -13,7 +13,7 @@ redirect_from:
 I am a fourth-year undergraduate student at the University of Michigan College of Engineering, 
 majoring in [Computer Science](https://cse.engin.umich.edu) and minoring in [Civil Engineering](https://cee.engin.umich.edu).
 I am also enrolled in the U-M [College of Engineering Honors Program](https://honors.engin.umich.edu).
-I am planning to pursue a Ph.D. degree starting in Fall 2024, with a focus on heterogeneous computer architecture and high-level synthesis.
+<!-- I am planning to pursue a Ph.D. degree starting in Fall 2024, with a focus on heterogeneous computer architecture and high-level synthesis. -->
 
 I am an extrovert, a communicator, and a team player.
 I believe that any successful person or team would "attack each day with an enthusiasm unknown to mankind," as U-M's head football coach Jim Harbaugh proclaims, and I expect nothing less from myself.
