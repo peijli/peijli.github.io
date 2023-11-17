@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-> Excelling in the magic of turning low-quality caffeine into high-quality engineering solutions for 22 years.
+> The magic of turning low-quality caffeine into high-quality engineering solutions, personified.
 
 I am a fourth-year undergraduate student at the University of Michigan College of Engineering, 
 majoring in [Computer Science](https://cse.engin.umich.edu) and minoring in [Civil Engineering](https://cee.engin.umich.edu).
@@ -42,7 +42,7 @@ I want to create the next generation of computer systems that will put the brill
 In the meantime, my other ambition is to create a world where computer architecture is accessible to all, as much as software development is today.
 I believe that the path to get there is through more efficient and more accessible high-level synthesis tools to lower time and monetary costs for designing new domain-specific hardware accelerators.
 
-I am also practically the only person I know combining a Computer Science major with a Civil Engineering minor. 
+I am also practically the only person I know among my peers combining a Computer Science major with a Civil Engineering minor. 
 I wish to go above and beyond what's required for a computer science degree and want to venture deeper into the interdisciplinary application of computing.
 I believe that transportation and infrastructure are two such places where computer technologies can make an impact. 
 In particular, I believe that if I can put more efficient, reliable, and secure computer systems on the road, I can make a difference by enabling each entity in the transportation system to make use of ever more complex and accurate data and algorithms to make better decisions.
@@ -67,7 +67,7 @@ In terms of competitive team sports, I have been a member of the University of M
 I have been part of multiple teams winning the road cycling championship of the [Midwest Collegiate Cycling Conference](https://www.mwccc.org).
 In the meantime, I am also a huge University of Michigan sports fan -- there's no sporting event that I won't watch if my Wolverines are playing, and the amount of school spirit I have is probably unhealthy.
 
-When it comes to slightly more fringe and frivolous interests, I have also been incredibly invested in the [Touhou Project](https://en.touhouwiki.net/wiki/Touhou_Wiki) game series out of Japan.
-Try to catch me at an anime convention near you if you can!
+<!-- When it comes to slightly more fringe and frivolous interests, I have also been incredibly invested in the [Touhou Project](https://en.touhouwiki.net/wiki/Touhou_Wiki) game series out of Japan.
+Try to catch me at an anime convention near you if you can! -->
 
 > Check out the source code of this website [here](https://github.com/pl-mich/peijli.github.io).
