@@ -14,6 +14,7 @@
   padding-left: 2em;
   padding-right: 2em;
   font-family: $sans-serif;
+  // font-family: "Twinkle Star";
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.30s;
@@ -67,6 +68,7 @@
     padding: 0;
     list-style-type: none;
     font-family: $sans-serif;
+    // font-family: "Twinkle Star";
   }
 
   li {
@@ -78,6 +80,7 @@
       margin-bottom: 0.25em;
       padding: 0.5em 1em;
       font-family: $sans-serif;
+      // font-family: "Twinkle Star";
       font-size: 14px;
       font-weight: bold;
       line-height: 1.5;
@@ -178,6 +181,8 @@
   position: relative;
   min-width: 250px;
   background: $background-color;
+  font-family: $sans-serif;
+  // font-family: $marker-font, $sans-serif;
   // background: $highlight-color-lighter;
 
   a {

@@ -11,7 +11,7 @@ author_profile: true
 
 | Course Number | Course Title | Instructor | Semester Taken |
 |---|---|---|---|
-| EECS 489 | Computer Networks | Mosharaf Chowdhury | Winter 2024 |
+| EECS 481 | Software Engineering | Xinyu Wang | Winter 2024 |
 | MATH 561 | Linear Programming | Ruiwei Jiang | Winter 2024 |
 | EECS 573 | Microarchitecture | Todd Austin | Fall 2023 |
 | EECS 583 | Advanced Compiler Construction | Scott Mahlke | Fall 2023 |

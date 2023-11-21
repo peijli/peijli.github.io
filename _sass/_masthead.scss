@@ -10,12 +10,14 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
+  // font-family: $star-font;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
+    // font-family: $star-font;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
