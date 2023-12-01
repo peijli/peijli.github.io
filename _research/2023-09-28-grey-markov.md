@@ -6,7 +6,7 @@ excerpt: 'A multivariate Grey-Markov model to quantify traffic accident risk fro
 date: 2023-09-28
 venue: 'PLOS ONE'
 paperurl: 'http://www-personal.umich.edu/~peijli/files/journal.pone.0287045.pdf'
-citation: 'Li P, Li J (2023) Exploration of the application of Grey-Markov models in the causality analysis of traffic accidents in roundabouts. PLOS ONE 18(9): e0287045.'
+citation: 'Li P, Li J (2023) Exploration of the application of Grey-Markov models in the causality analysis of traffic accidents in roundabouts. PLOS ONE 18(9): e0287045. https://doi.org/10.1371/journal.pone.0287045'
 ---
 
 This paper is the result of further work on the term project of the CEE 450 Introduction to Transportation Engineering class at the University of Michigan, taught by [Dr. Henry Liu](https://cee.engin.umich.edu/people/liu-henry/).
