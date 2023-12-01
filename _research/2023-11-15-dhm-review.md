@@ -5,8 +5,8 @@ collection: research
 excerpt: 'A novel systematic bibliometric analysis approach to summarize the current state and challenges of digital human modeling in automotive engineering and to outline future direction.'
 date: 2023-10-19
 venue: 'International Journal of Vehicle Design'
-# paperurl: 'http://www-personal.umich.edu/~peijli/files/2023_IJVD-132836_TAFPV.pdf'
-citation: 'Li J, Li P (2023) Digital human models in automotive engineering applications: a bibliometric analysis of research progress and prospects. (In press) International Journal of Vehicle Design. https://doi.org/10.1504/ijvd.2023.10060019.'
+paperurl: 'https://doi.org/10.1504/ijvd.2023.10060019'
+citation: 'Li J, Li P (2023) Digital human models in automotive engineering applications: a bibliometric analysis of research progress and prospects. (In press) International Journal of Vehicle Design.'
 ---
 
 > This paper is accepted for publication in the International Journal of Vehicle Design in October 2023. The final version will be available soon.
