@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+Quick links to my long-form [CV](http://www-personal.umich.edu/~peijli/files/CV.pdf), and short-form [Resume](http://www-personal.umich.edu/~peijli/files/Resume.pdf).
+
 > The magic of turning low-quality caffeine into high-quality engineering solutions, personified.
 
 I am a fourth-year undergraduate student at the University of Michigan College of Engineering, 
