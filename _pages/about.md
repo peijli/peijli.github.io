@@ -10,6 +10,9 @@ redirect_from:
 
 Quick links to my long-form [CV](http://www-personal.umich.edu/~peijli/files/CV.pdf), and short-form [Resume](http://www-personal.umich.edu/~peijli/files/Resume.pdf).
 
+I'm excited to announce that I'll be joining Stanford University as a Ph.D. student in the [Electrical Engineering](https://ee.stanford.edu) department starting in Fall 2024! This site will go offline after I graduate from the University of Michigan in May 2024. A new website at the stanford.edu domain is currently under construction.
+{: .notice--danger}
+
 > The magic of turning low-quality caffeine into high-quality engineering solutions, personified.
 
 I am a fourth-year undergraduate student at the University of Michigan College of Engineering, 
@@ -69,7 +72,7 @@ In terms of competitive team sports, I have been a member of the University of M
 I have been part of multiple teams winning the road cycling championship of the [Midwest Collegiate Cycling Conference](https://www.mwccc.org).
 In the meantime, I am also a huge University of Michigan sports fan -- there's no sporting event that I won't watch if my Wolverines are playing, and the amount of school spirit I have is probably unhealthy.
 
-<!-- When it comes to slightly more fringe and frivolous interests, I have also been incredibly invested in the [Touhou Project](https://en.touhouwiki.net/wiki/Touhou_Wiki) game series out of Japan.
-Try to catch me at an anime convention near you if you can! -->
+When it comes to slightly more fringe and frivolous interests, I have also been incredibly invested in the [Touhou Project](https://en.touhouwiki.net/wiki/Touhou_Wiki) game series out of Japan.
+Try to catch me at an anime convention near you if you can!
 
 > Check out the source code of this website [here](https://github.com/pl-mich/peijli.github.io).
