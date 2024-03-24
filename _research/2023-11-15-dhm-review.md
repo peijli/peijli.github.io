@@ -5,11 +5,9 @@ collection: research
 excerpt: 'A novel systematic bibliometric analysis approach to summarize the current state and challenges of digital human modeling in automotive engineering and to outline future direction.'
 date: 2023-10-19
 venue: 'International Journal of Vehicle Design'
-paperurl: 'https://doi.org/10.1504/ijvd.2023.10060019'
-citation: 'J. Li, P. Li, and J. Hu, “Digital human models in automotive engineering applications: a bibliometric analysis of research progress and prospects,” IJVD, vol. 1, no. 1, p. 10060019, 2023, doi: 10.1504/IJVD.2023.10060019.'
+paperurl: 'https://doi.org/10.1504/IJVD.2024.137303'
+citation: 'J. Li, P. Li, and J. Hu, “Digital human models in automotive engineering applications: a bibliometric analysis of research progress and prospects,” International Journal of Vehicle Design, vol. 94, no. 3/4, pp. 321–356, Mar 2024, doi: 10.1504/IJVD.2024.137303.'
 ---
-
-> This paper is accepted for publication in the International Journal of Vehicle Design in October 2023. The final version will be available soon.
 
 ## Abstract
 
@@ -35,23 +33,24 @@ The BibTeX entry for this paper is
 ```bibtex
 @article{li_digital_2023,
  title = {Digital human models in automotive engineering applications: a bibliometric analysis of research progress and prospects},
- volume = {1},
+ volume = {94},
+ number = {3/4},
+ pages = {321--356},
  copyright = {All rights reserved},
  issn = {0143-3369, 1741-5314},
  shorttitle = {Digital human models in automotive engineering applications},
  url = {http://www.inderscience.com/link.php?id=10060019},
- doi = {10.1504/IJVD.2023.10060019},
+ doi = {10.1504/IJVD.2024.137303},
  language = {en},
  number = {1},
  urldate = {2023-12-03},
  journal = {International Journal of Vehicle Design},
  author = {Li, Jian and Li, Peijing and Hu, Jingwen},
- year = {2023},
- pages = {10060019},
+ year = {2024}
 }
 ```
 
-<!-- ### [Download paper here](http://www-personal.umich.edu/~peijli/files/2023_IJVD-132836_TAFPV.pdf) -->
+<!-- ### [Download paper here](https://web.stanford.edu/~peli/files/2023_IJVD-132836_TAFPV.pdf) -->
 
 <!-- ## Recommended citation
 

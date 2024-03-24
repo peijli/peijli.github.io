@@ -10,14 +10,14 @@ redirect_from:
 
 Quick links to my long-form [CV](http://www-personal.umich.edu/~peijli/files/CV.pdf), and short-form [Resume](http://www-personal.umich.edu/~peijli/files/Resume.pdf).
 
-I'm excited to announce that I'll be joining Stanford University as a Ph.D. student in the [Electrical Engineering](https://ee.stanford.edu) department starting in Fall 2024! This site will go offline after I graduate from the University of Michigan in May 2024. A new website at the stanford.edu domain is currently under construction.
+I'm excited to announce that I'll be joining Stanford University as a Ph.D. student in the [Electrical Engineering](https://ee.stanford.edu) department starting in Fall 2024! This site will go offline after I graduate from the University of Michigan in May 2024. You can locate my new website at [https://peli.web.stanford.edu/](https://web.stanford.edu/~peli/) after that time.
 {: .notice--danger}
 
 > The magic of turning low-quality caffeine into high-quality engineering solutions, personified.
 
 I am a fourth-year undergraduate student at the University of Michigan College of Engineering, 
 majoring in [Computer Science](https://cse.engin.umich.edu) and minoring in [Civil Engineering](https://cee.engin.umich.edu).
-I am also enrolled in the U-M [College of Engineering Honors Program](https://honors.engin.umich.edu).
+I am also an incoming Ph.D. student at Stanford University in the [Electrical Engineering](https://ee.stanford.edu) department, starting in the Autumn 2024 quarter.
 
 I am an extrovert, a communicator, and a team player.
 I believe that any successful person or team would "attack each day with an enthusiasm unknown to mankind," as Stanford and Michigan's former head football coach Jim Harbaugh proclaimed, and I expect nothing less from myself.
