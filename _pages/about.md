@@ -10,14 +10,12 @@ redirect_from:
 
 Quick links to my long-form [CV](https://web.stanford.edu/~peli/files/CV.pdf), and short-form [Resume](https://web.stanford.edu/~peli/files/Resume.pdf).
 
-I'm excited to announce that I'll be joining Stanford University as a Ph.D. student in the [Electrical Engineering](https://ee.stanford.edu) department starting in Fall 2024! This site will go offline after I graduate from the University of Michigan in May 2024. A new website at the stanford.edu domain is currently under construction.
-{: .notice--danger}
-
 > The magic of turning low-quality caffeine into high-quality engineering solutions, personified.
 
-I am a fourth-year undergraduate student at the University of Michigan College of Engineering, 
-majoring in [Computer Science](https://cse.engin.umich.edu) and minoring in [Civil Engineering](https://cee.engin.umich.edu).
-I am also enrolled in the U-M [College of Engineering Honors Program](https://honors.engin.umich.edu).
+I am an incoming Ph.D. student in Electrical Engineering at Stanford University, starting in the Autumn 2024 quarter.
+I am currently a fourth-year undergraduate student at the University of Michigan College of Engineering, 
+majoring in [Computer Science](https://cse.engin.umich.edu) and minoring in [Civil Engineering](https://cee.engin.umich.edu),
+expected to graduate in May 2024.
 
 I am an extrovert, a communicator, and a team player.
 I believe that any successful person or team would "attack each day with an enthusiasm unknown to mankind," as Stanford and Michigan's former head football coach Jim Harbaugh proclaimed, and I expect nothing less from myself.
@@ -60,7 +58,7 @@ The University of Michigan College of Engineering Honors Program has also connec
 The most notable of these was my participation in the Alternative Spring Break, where I traveled to the [Habitat for Humanity](https://www.habitat.org) site in [Des Moines, IA](https://gdmhabitat.org) to build houses for low-income families and put some of my civil engineering know-how to use.
 
 I was a member of the University of Michigan [Engineering Student Government](https://esg.engin.umich.edu) from the fall of 2020 to the winter of 2022.
-As a member of the Student Life Committee, I was most notably involved with organizing wellness-related events, such as mindfulness sessions and nature walks in the [Nichols Arboretum](https://mbgna.umich.edu/nichols-arboretum/).
+As a member of the Student Life Committee, I was most notably involved with organizing wellness-related events, such as mindfulness sessions and nature walks in the [Nichols Arboretum](https://mbgna.umich.edu/nichols-arboretum/) in Ann Arbor.
 I believe those were the best ways I could serve my fellow students during the thick of the COVID-19 pandemic.
 
 ## Extracurriculars and Hobbies

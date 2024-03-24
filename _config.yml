@@ -10,7 +10,7 @@ locale: "en-US"
 title: "Peijing Li Portfolio"
 title_separator: "-"
 name: &name "Peijing Li"
-description: &description "Senior at the University of Michigan"
+description: &description "Incoming EE PhD student at Stanford University"
 # TODO: change this for GitHub pages deployment
 # domain: peijli.github.io
 url: https://web.stanford.edu/~peli # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -82,9 +82,9 @@ analytics:
 author:
   name: "Peijing Li"
   avatar: "profile.png"
-  bio: "Senior undergraduate student in Computer Science and Civil Engineering. "
+  bio: "Incoming first-year PhD student at Stanford in Electrical Engineering. Current senior in CS at the University of Michigan."
   location: "Ann Arbor, MI"
-  employer: "University of Michigan"
+  employer: "University of Michigan (BSE CS '24)"
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=m96juKIAAAAJ&hl=en"
   email: "peli@stanford.edu"
@@ -118,7 +118,7 @@ author:
 
 # Reading Files
 include:
-  - .htaccess
+  # - .htaccess
   - _pages
   - files
 exclude:
