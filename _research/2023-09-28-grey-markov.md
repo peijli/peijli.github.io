@@ -40,9 +40,9 @@ The BibTeX entry for this paper is
 }
 ```
 
-### [Download paper here](https://web.stanford.edu/~peli/files/journal.pone.0287045.pdf)
+### [Download paper here](https://peijli.github.io/files/journal.pone.0287045.pdf)
 
-<!-- <object data="https://web.stanford.edu/~peli/files/journal.pone.0287045.pdf" type="application/pdf"> -->
+<!-- <object data="https://peijli.github.io/files/journal.pone.0287045.pdf" type="application/pdf"> -->
 
 <!-- ## Recommended Citation
 

@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-For a more detailed listing of my academic experiences and qualifications, please [download PDF version of the CV here](https://web.stanford.edu/~peli/files/CV.pdf)
+For a more detailed listing of my academic experiences and qualifications, please [download PDF version of the CV here](https://peijli.github.io/files/CV.pdf)
 
 ## Education
 

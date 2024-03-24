@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Quick links to my long-form [CV](https://web.stanford.edu/~peli/files/CV.pdf), and short-form [Resume](https://web.stanford.edu/~peli/files/Resume.pdf).
+Quick links to my long-form [CV](https://peijli.github.io/files/CV.pdf), and short-form [Resume](https://peijli.github.io/files/Resume.pdf).
 
 > The magic of turning low-quality caffeine into high-quality engineering solutions, personified.
 
@@ -23,7 +23,7 @@ Meanwhile, I believe that my diverse experiences in software testing, computer a
 
 ## Experiences
 
-Please refer to the [Research](https://web.stanford.edu/~peli/research/) page for a detailed list of my research experiences and projects, and to the [Academics](https://web.stanford.edu/~peli/academics/) page for a detailed list of my coursework and academic projects.
+Please refer to the [Research](https://peijli.github.io/research/) page for a detailed list of my research experiences and projects, and to the [Academics](https://peijli.github.io/academics/) page for a detailed list of my coursework and academic projects.
 
 My undergraduate research experiences were very much a product of the circumstances I was in.
 The COVID-19 pandemic seriously disrupted my freshman and sophomore years of college, as well as access to certain research opportunities that I might otherwise be aware of.
