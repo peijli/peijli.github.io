@@ -11,10 +11,12 @@ title: "Peijing Li Portfolio"
 title_separator: "-"
 name: &name "Peijing Li"
 description: &description "Senior at the University of Michigan"
-# url                      : https://academicpages.github.io/
+# TODO: change this for GitHub pages deployment
+# domain: peijli.github.io
+# url: https://peijli.github.io
 url: https://www-personal.umich.edu/~peijli # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "pl-mich/peijli.github.io"
+repository: "peijli/peijli.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: true # true, false (default)
 words_per_minute: 160
@@ -86,7 +88,7 @@ author:
   employer: "University of Michigan"
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=m96juKIAAAAJ&hl=en"
-  email: "peijli@umich.edu"
+  email: "peli@stanford.edu"
   # researchgate: "https://www.researchgate.net/profile/Peijing-Li-3"
   # uri: "http://www-personal.umich.edu/~peijli/"
   bitbucket:
@@ -95,7 +97,7 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: "pl-mich"
+  github: "peijli"
   google_plus:
   keybase:
   instagram:

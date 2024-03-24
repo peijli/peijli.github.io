@@ -13,6 +13,10 @@ For a more detailed listing of my academic experiences and qualifications, pleas
 
 ## Education
 
+### Ph.D. in Electrical Engineering, Stanford University, Fall 2024 (incoming)
+
+- Research focus: computer architecture, high-level synthesis, domain-specific hardware accelerators
+
 ### B.S.E. in Computer Science, University of Michigan, May 2024 (expected)
 
 - Minor in Civil Engineering

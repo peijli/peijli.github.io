@@ -39,7 +39,7 @@ Before that, I worked as an instructional aide for the [Department of Civil and 
 Introducing CEE students to the world of sensors and signal processing was a rewarding experience for me, and I am glad to have been able to help them with their projects.
 I spent the summer after my freshman year of college at the Dell EMC subsidiary in my hometown of Shanghai, China, where I performed integration testing on the [VxRail hyperconverged infrastructure](https://www.dell.com/en-us/dt/converged-infrastructure/vxrail/index.htm) software and the [VMware Cloud Foundation software stack](https://www.vmware.com/products/cloud-foundation.html).
 
-## Academic Interest Narrative
+<!-- ## Academic Interest Narrative
 
 I have chosen the career path of an engineer -- or more specifically, a computer architect -- because of my passion for technology, as well as my desire to share that passion with others.
 I want to create the next generation of computer systems that will put the brilliance of modern software to its full potential, as well as bring the power of computing to the masses.
@@ -49,7 +49,7 @@ I believe that the path to get there is through more efficient and more accessib
 I am also practically the only person I know among my peers combining a Computer Science major with a Civil Engineering minor. 
 I wish to go above and beyond what's required for a computer science degree and want to venture deeper into the interdisciplinary application of computing.
 I believe that transportation and infrastructure are two such places where computer technologies can make an impact. 
-In particular, I believe that if I can put more efficient, reliable, and secure computer systems on the road, I can make a difference by enabling each entity in the transportation system to make use of ever more complex and accurate data and algorithms to make better decisions.
+In particular, I believe that if I can put more efficient, reliable, and secure computer systems on the road, I can make a difference by enabling each entity in the transportation system to make use of ever more complex and accurate data and algorithms to make better decisions. -->
 
 ## Service and Leadership
 
@@ -74,4 +74,4 @@ In the meantime, I am also a huge University of Michigan sports fan -- there's n
 When it comes to slightly more fringe and frivolous interests, I have also been incredibly invested in the [Touhou Project](https://en.touhouwiki.net/wiki/Touhou_Wiki) game series out of Japan.
 Try to catch me at an anime convention near you if you can!
 
-> Check out the source code of this website [here](https://github.com/pl-mich/peijli.github.io).
+> Check out the source code of this website [here](https://github.com/peijli/peijli.github.io).
