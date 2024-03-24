@@ -51,7 +51,7 @@ The BibTeX entry for this paper is
 }
 ```
 
-<!-- ### [Download paper here](http://www-personal.umich.edu/~peijli/files/2023_IJVD-132836_TAFPV.pdf) -->
+<!-- ### [Download paper here](https://web.stanford.edu/~peli/files/2023_IJVD-132836_TAFPV.pdf) -->
 
 <!-- ## Recommended citation
 

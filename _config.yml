@@ -13,8 +13,7 @@ name: &name "Peijing Li"
 description: &description "Senior at the University of Michigan"
 # TODO: change this for GitHub pages deployment
 # domain: peijli.github.io
-# url: https://peijli.github.io
-url: https://www-personal.umich.edu/~peijli # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://web.stanford.edu/~peli # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "peijli/peijli.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -90,7 +89,7 @@ author:
   googlescholar: "https://scholar.google.com/citations?user=m96juKIAAAAJ&hl=en"
   email: "peli@stanford.edu"
   # researchgate: "https://www.researchgate.net/profile/Peijing-Li-3"
-  # uri: "http://www-personal.umich.edu/~peijli/"
+  # uri: "https://web.stanford.edu/~peli/"
   bitbucket:
   codepen:
   dribbble:
