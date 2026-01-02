@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Quick links to my long-form [CV](https://web.stanford.edu/~peli/files/CV.pdf), and short-form [Resume](https://web.stanford.edu/~peli/files/Resume.pdf).
+Quick link to my short-form [Resume](https://web.stanford.edu/~peli/files/Resume.pdf).
 
 > The magic of turning low-quality caffeine into high-quality engineering solutions, personified.
 
