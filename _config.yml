@@ -14,8 +14,8 @@ title_separator: "-"
 name: &name "Peijing Li"
 description: &description "PhD Student at Stanford University"
 # TODO: change this for Stanford AFS pages deployment
-domain: peijli.github.io
-url: https://peijli.github.io
+domain: web.stanford.edu/~peli
+url: https://web.stanford.edu/~peli
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "peijli/peijli.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
