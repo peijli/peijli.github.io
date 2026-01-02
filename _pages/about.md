@@ -25,6 +25,8 @@ My primary research interests lie in memory systems for domain-specific hardware
 I am particularly interested in tackling the [memory wall](https://arxiv.org/abs/2403.14123) problem -- particularly given the context of memory-intensive modern AI applications and the astronomical increases in demand for DRAM and SRAM capacity they bring.
 I believe the architectural solution is centered around the concept of heterogeneity to both on-chip and off-chip memory systems, where different types of data accesses are served by different specialized memory devices and arrays with varying trade-offs in latency, density, retention time, and energy consumption.
 
+I am advised by [Prof. Thierry Tambe](https://tambelab.stanford.edu/people/thierry-tambe) at Stanford, and much of my research collaboration can be found through the [Stanford Differentiated Access Memories Project](https://dam.stanford.edu/).
+
 Please refer to the [Research]({{ "/research/" | relative_url }}) page for a detailed list of my research experiences and projects, and to the [Academics]({{ "/academics/" | relative_url }}) page for a detailed list of my coursework and academic projects.
 
 ## Experiences
@@ -38,29 +40,6 @@ Before that, I worked as an instructional aide for the [Department of Civil and 
 Introducing CEE students to the world of sensors and signal processing and bridging the gap between prior civil engineering knowledge -- that my students already had -- and new electrical engineering concepts -- that I was more familiar with -- was an incredibly rewarding experience.
 I spent the summer after my freshman year of college at the Dell EMC subsidiary in my hometown of Shanghai, China, where I performed integration testing on the [VxRail hyperconverged infrastructure](https://www.dell.com/en-us/dt/converged-infrastructure/vxrail/index.htm) software and the [VMware Cloud Foundation software stack](https://www.vmware.com/products/cloud-foundation.html).
 
-<!-- ## Academic Interest Narrative
-
-I have chosen the career path of an engineer -- or more specifically, a computer architect -- because of my passion for technology, as well as my desire to share that passion with others.
-I want to create the next generation of computer systems that will put the brilliance of modern software to its full potential, as well as bring the power of computing to the masses.
-In the meantime, my other ambition is to create a world where computer architecture is accessible to all, as much as software development is today.
-I believe that the path to get there is through more efficient and more accessible high-level synthesis tools to lower time and monetary costs for designing new domain-specific hardware accelerators.
-
-I am also practically the only person I know among my peers combining a Computer Science major with a Civil Engineering minor. 
-I wish to go above and beyond what's required for a computer science degree and want to venture deeper into the interdisciplinary application of computing.
-I believe that transportation and infrastructure are two such places where computer technologies can make an impact. 
-In particular, I believe that if I can put more efficient, reliable, and secure computer systems on the road, I can make a difference by enabling each entity in the transportation system to make use of ever more complex and accurate data and algorithms to make better decisions. -->
-
-## Service and Leadership
-
-I was a member of the [Tau Beta Pi](https://www.tbp.org/home.cfm) [Michigan Gamma Chapter](https://tbp.engin.umich.edu) from 2023 to 2024.
-I participated in multiple volunteering events with the chapter, highlighed by my commitment to the Ann Arbor Natural Area Preservation's [Stewardship Workdays](https://www.a2gov.org/departments/Parks-Recreation/NAP/volunteering/Pages/StewardshipWorkdays.aspx) program.
-
-<!-- The University of Michigan College of Engineering Honors Program has also connected me with several volunteering opportunities.
-The most notable of these was my participation in the Alternative Spring Break, where I traveled to the [Habitat for Humanity](https://www.habitat.org) site in [Des Moines, IA](https://gdmhabitat.org) to build houses for low-income families and put some of my civil engineering know-how to use. -->
-
-I was a member of the University of Michigan [Engineering Student Government](https://esg.engin.umich.edu) from the fall of 2020 to the winter of 2022.
-<!-- As a member of the Student Life Committee, I was most notably involved with organizing wellness-related events, such as mindfulness sessions and nature walks in the [Nichols Arboretum](https://mbgna.umich.edu/nichols-arboretum/) in Ann Arbor. -->
-
 ## Extracurriculars and Service
 
 The [Leland Stanford Junior University Marching Band](https://lsjumb.stanford.edu) has made up a significant part of my experience at Stanford so far ever since I joined in the fall of 2024, and I play marching drums, the glockenspiel, and the piccolo in the band.
@@ -71,5 +50,7 @@ In terms of competitive team sports, I was a member of the University of Michiga
 
 When it comes to slightly more fringe and frivolous interests, I have also been incredibly invested in the [Touhou Project](https://en.touhouwiki.net/wiki/Touhou_Wiki) game series out of Japan.
 Try to catch me at an anime convention near you if you can!
+
+---
 
 > Check out the source code of this website [here](https://github.com/peijli/peijli.github.io).
