@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Quick links to my long-form [CV](http://www-personal.umich.edu/~peijli/files/CV.pdf), and short-form [Resume](http://www-personal.umich.edu/~peijli/files/Resume.pdf).
+Quick links to my long-form [CV](https://web.stanford.edu/~peli/files/CV.pdf), and short-form [Resume](https://web.stanford.edu/~peli/files/Resume.pdf).
 
 I'm excited to announce that I'll be joining Stanford University as a Ph.D. student in the [Electrical Engineering](https://ee.stanford.edu) department starting in Fall 2024! This site will go offline after I graduate from the University of Michigan in May 2024. You can locate my new website at [https://peli.web.stanford.edu/](https://web.stanford.edu/~peli/) after that time.
 {: .notice--danger}
@@ -25,7 +25,7 @@ Meanwhile, I believe that my diverse experiences in software testing, computer a
 
 ## Experiences
 
-Please refer to the [Research](http://www-personal.umich.edu/~peijli/research/) page for a detailed list of my research experiences and projects, and to the [Academics](http://www-personal.umich.edu/~peijli/academics/) page for a detailed list of my coursework and academic projects.
+Please refer to the [Research](https://web.stanford.edu/~peli/research/) page for a detailed list of my research experiences and projects, and to the [Academics](https://web.stanford.edu/~peli/academics/) page for a detailed list of my coursework and academic projects.
 
 My undergraduate research experiences were very much a product of the circumstances I was in.
 The COVID-19 pandemic seriously disrupted my freshman and sophomore years of college, as well as access to certain research opportunities that I might otherwise be aware of.
