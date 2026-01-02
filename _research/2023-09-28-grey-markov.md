@@ -40,7 +40,7 @@ The BibTeX entry for this paper is
 }
 ```
 
-### [Download paper here](https://web.stanford.edu/~peli/files/journal.pone.0287045.pdf)
+### [Download paper here]({{ "/files/journal.pone.0287045.pdf" | relative_url }})
 
 <!-- <object data="https://web.stanford.edu/~peli/files/journal.pone.0287045.pdf" type="application/pdf"> -->
 

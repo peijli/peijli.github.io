@@ -17,7 +17,7 @@ Our design includes several features that contribute to high performance, includ
 A high-level overview of our design is shown below. 
 <!-- Please refer to our [final report](https://web.stanford.edu/~peli/files/EECS470_Final_Report.pdf) for more details. -->
 
-![Microprocessor Overview](https://web.stanford.edu/~peli/images/470_flow.png)
+![Microprocessor Overview]({{ "/images/470_flow.png" | relative_url }})
 
 > Please reach out to me if you are interested in reading the full report or accessing the source code for this project.
 
