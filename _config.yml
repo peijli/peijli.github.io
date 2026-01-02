@@ -87,9 +87,9 @@ author:
   employer: "Stanford University"
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=m96juKIAAAAJ&hl=en"
-  email: "peli@stanford.edu"
+  # email: "peli@stanford.edu"
   # researchgate: "https://www.researchgate.net/profile/Peijing-Li-3"
-  # uri: "https://web.stanford.edu/~peli/"
+  uri: "https://profiles.stanford.edu/peijing-li"
   bitbucket:
   codepen:
   dribbble:
@@ -158,7 +158,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: sunrise
+minimal_mistakes_skin: plum
 
 # Markdown Processing
 kramdown:
