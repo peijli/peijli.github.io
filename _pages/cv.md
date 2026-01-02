@@ -9,11 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-For a more detailed listing of my academic experiences and qualifications, please [download PDF version of the CV here](https://web.stanford.edu/~peli/files/CV.pdf)
+<!-- For a more detailed listing of my academic experiences and qualifications, please [download PDF version of the CV here](https://web.stanford.edu/~peli/files/CV.pdf) -->
 
 ## Education
 
-### Ph.D. in Electrical Engineering, Stanford University, Fall 2024 (incoming)
+### Ph.D. in Electrical Engineering, Stanford University
 
 - Research focus: computer architecture, high-level synthesis, domain-specific hardware accelerators
 
@@ -25,6 +25,14 @@ For a more detailed listing of my academic experiences and qualifications, pleas
 
 ## Work experience
 
+- Winter 2026: Teaching Assistant
+  - CS 217: Hardware Accelerators for Machine Learning, Stanford University, Stanford, CA
+  - Duties included: designing lab assignments, leading weekly discussion sections on ML accelerators and FPGA implementation
+  - Supervisor: Prof. Thierry Tambe and Kunle Olukotun
+- Fall 2024: Research Assistant
+  - Stanford University, Stanford, CA
+  - Duties included: research on heterogeneous memory systems for AI accelerators
+  - Supervisor: Prof. Thierry Tambe
 - Summer 2023: Software Test Engineer Intern
   - ASML Silicon Valley, San Jose, CA
   - Duties included: automating regression testing for computational lithography software
@@ -47,12 +55,6 @@ For a more detailed listing of my academic experiences and qualifications, pleas
 - Programming skills: C/C++, Python, Java, JavaScript, x86/ARM/RISC-V assembly, SystemVerilog
 - Software skills: TensorFlow, PyTorch, TensorBoard, Git, Jira, Confluence, MATLAB, LLVM, Docker, Mathematica, Adobe Premiere Pro
 - Language skills: English (proficient), Mandarin Chinese (native)
-
-## Service and Extra-curriculars
-
-- Active member of [Tau Beta Pi](https://www.tbp.org/home.cfm) [Michigan Gamma Chapter](https://tbp.engin.umich.edu) (Winter 2023 -- Present)
-- Member of University of Michigan [Club Cycling Team](https://www.umcycling.org) (Fall 2021 -- Present)
-- Member of University of Michigan [Engineering Student Government](https://esg.engin.umich.edu) (Fall 2020 -- Winter 2022)
 
 ## Publications
 

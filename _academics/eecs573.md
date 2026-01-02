@@ -20,6 +20,6 @@ Learning objectives for this lecture include:
 
 > Please reach out to me if you are interested in accessing the recording or the slides for this talk.
 
-<!-- ### [Download the slides for this talk](https://web.stanford.edu/~peli/files/EECS_573_Lecture.pdf)
+<!-- ### [Download the slides for this talk](https://peijli.github.io/files/EECS_573_Lecture.pdf)
 
 #### [Access the recording for this talk (U-M login required)](https://leccap.engin.umich.edu/leccap/player/r/bSVyE6) -->
