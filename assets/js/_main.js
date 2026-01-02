@@ -5,8 +5,7 @@
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
 // "system". Default is "system".
 let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
-  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
+  return "light"; // Force light theme
 };
 
 // Determine the computed theme, which can be "dark" or "light". If the theme setting is
@@ -34,8 +33,8 @@ let setTheme = (theme) => {
     $("html").attr("data-theme", "dark");
     $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
   } else if (use_theme === "light") {
-    $("html").removeAttr("data-theme");
-    $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
+  $("html").removeAttr("data-theme");
+  $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
   }
 };
 
@@ -56,10 +55,10 @@ var toggleTheme = () => {
 // actually present on the page.
 import { plotlyDarkLayout, plotlyLightLayout } from './theme.js';
 let plotlyElements = document.querySelectorAll("pre>code.language-plotly");
-if (plotlyElements.length > 0) {
-  document.addEventListener("readystatechange", () => {
-    if (document.readyState === "complete") {
-      plotlyElements.forEach((elem) => {
+  if (plotlyElements.length > 0) {
+    document.addEventListener("readystatechange", () => {
+      if (document.readyState === "complete") {
+        plotlyElements.forEach((elem) => {
         // Parse the Plotly JSON data and hide it
         var jsonData = JSON.parse(elem.textContent);
         elem.parentElement.classList.add("hidden");
@@ -92,12 +91,12 @@ $(document).ready(function () {
 
   // If the user hasn't chosen a theme, follow the OS preference
   setTheme();
-  window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
-            setTheme(e.matches ? "dark" : "light");
-          }
-        });
+  // window.matchMedia('(prefers-color-scheme: light)')
+  //       .addEventListener("change", (e) => {
+  //         if (!localStorage.getItem("theme")) {
+  //           setTheme(e.matches ? "dark" : "light");
+  //         }
+  //       });
 
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);

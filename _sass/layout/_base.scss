@@ -40,44 +40,44 @@ h1 {
 
 h2 {
   font-size: $type-size-4;
-  color: $text-color;
+  color: var(--global-text-color);
 }
 
 h3 {
   font-size: $type-size-5;
-  color: $text-color;
+  color: var(--global-text-color);
 }
 
 h4 {
   font-size: $type-size-6;
-  color: $text-color;
+  color: var(--global-text-color);
 }
 
 h5 {
   font-size: $type-size-6;
-  color: $text-color;
+  color: var(--global-text-color);
 }
 
 h6 {
   font-size: $type-size-6;
-  color: $text-color;
+  color: var(--global-text-color);
 }
 
 small, .small {
   font-size: $type-size-6;
-  color: $text-color;
+  color: var(--global-text-color);
 }
 
 p {
   margin-bottom: 1.3em;
-  color: $text-color;
+  color: var(--global-text-color);
 }
 
 u,
 ins {
   text-decoration: none;
-  color: $text-color;
-  // border-bottom: 1px solid $text-color;
+  color: var(--global-text-color);
+  // border-bottom: 1px solid var(--global-text-color);
   border-bottom: 1px solid var(--global-text-color);
   a {
     color: inherit;
