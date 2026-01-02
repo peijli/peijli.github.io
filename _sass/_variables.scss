@@ -14,17 +14,18 @@ $indent-var                 : 1.3em;
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Hi+Melody&family=Twinkle+Star&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 $marker-font                : "Yusei Magic", sans-serif;
 $star-font                 : "Twinkle Star", sans-serif;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : "Atkinson Hyperlegible", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$sans-serif                 : "Source Sans 3", "Atkinson Hyperlegible", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$helvetica                  : Helvetica, "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
 
 /* serif typefaces */
 $georgia                    : Georgia, serif;
@@ -71,13 +72,14 @@ $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
 // additional highlight colors
-$highlight-color            : #ffcb05;
+$highlight-color            : #b83a4b;
 $highlight-color-dark       : mix(#000, $highlight-color, 40%);
 $highlight-color-darker     : mix(#000, $highlight-color, 60%);
 $highlight-color-light      : mix(#fff, $highlight-color, 50%);
 $highlight-color-lighter    : mix(#fff, $highlight-color, 90%);
 
-$primary-color              : #00274c;
+// $primary-color              : #00274c;
+$primary-color              : #8c1515;
 // $primary-color              : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;

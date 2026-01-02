@@ -3,5 +3,7 @@ _files/
 Gemfile.lock
 *.scssc
 node_modules/
-.DS_Store
 package-lock.json
+_site/
+_files/
+**/.DS_Store
