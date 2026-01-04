@@ -13,10 +13,10 @@ name: &name "Peijing Li"
 description: &description "EE PhD student at Stanford University"
 # TODO: change this for GitHub pages deployment
 # domain: peijli.github.io
-# url: https://web.stanford.edu
-url: "https://peijli.github.io"
-# baseurl: "/~peli"
-baseurl: ""
+url: https://web.stanford.edu
+# url: "https://peijli.github.io"
+baseurl: "/~peli"
+# baseurl: ""
 repository: "peijli/peijli.github.io"
 teaser: "DSC_0421.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: true # true, false (default)
