@@ -32,7 +32,7 @@ redirect_from:
 - Fall 2024: Research Assistant
   - Stanford University, Stanford, CA
   - Duties included: research on heterogeneous memory systems for AI accelerators
-  - Supervisor: Prof. Thierry Tambe
+  <!-- - Supervisor: Prof. Thierry Tambe -->
 - Summer 2023: Software Test Engineer Intern
   - ASML Silicon Valley, San Jose, CA
   - Duties included: automating regression testing for computational lithography software

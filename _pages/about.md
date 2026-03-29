@@ -25,7 +25,7 @@ My primary research interests lie in memory systems for domain-specific hardware
 I am particularly interested in tackling the [memory wall](https://arxiv.org/abs/2403.14123) problem -- particularly given the context of memory-intensive modern AI applications and the astronomical increases in demand for DRAM and SRAM capacity they bring.
 I believe the architectural solution is centered around the concept of heterogeneity to both on-chip and off-chip memory systems, where different types of data accesses are served by different specialized memory devices and arrays with varying trade-offs in latency, density, retention time, and energy consumption.
 
-I am advised by [Prof. Thierry Tambe](https://tambelab.stanford.edu/people/thierry-tambe) at Stanford, and much of my research collaboration can be found through the [Stanford Differentiated Access Memories Project](https://dam.stanford.edu/).
+<!-- I am advised by [Prof. Thierry Tambe](https://tambelab.stanford.edu/people/thierry-tambe) at Stanford, and much of my research collaboration can be found through the [Stanford Differentiated Access Memories Project](https://dam.stanford.edu/). -->
 
 Please refer to the [Research]({{ "/research/" | relative_url }}) page for a detailed list of my research experiences and projects, and to the [Academics]({{ "/academics/" | relative_url }}) page for a detailed list of my coursework and academic projects.
 
