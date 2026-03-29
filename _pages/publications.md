@@ -9,7 +9,7 @@ author_profile: true
 
 ### September 2024 -- Present
 
-This is my primary research direction as a Ph.D. student, where I work under the guidance of [Prof. Thierry Tambe](https://tambelab.stanford.edu/people/thierry-tambe) and collaborators throughout the Computer Science and Electrical Engineering departments at Stanford.
+<!-- This is my primary research direction as a Ph.D. student, where I work under the guidance of [Prof. Thierry Tambe](https://tambelab.stanford.edu/people/thierry-tambe) and collaborators throughout the Computer Science and Electrical Engineering departments at Stanford. -->
 
 DAM (Differentiated Access Memories) is a five-year project at Stanford University to research and define how future computers will manage memory as a heterogeneous resource with different tradeoffs. 
 I am interested in tackling the "memory wall" problem in the AI/ML fields, where the surging size of AI models demands more on-chip memory to store intermediate results, optimizing spatial and temporal locality and improving energy efficiency. 
