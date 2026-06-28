@@ -11,9 +11,17 @@ local/
 node_modules
 package-lock.json
 
+# Astro build output
+dist/
+.astro/
+
 # Ignore the vendor file at root level and bundle for alternative installation
 /vendor/
 .bundle/
 
 # Ignore folders related to IDEs
 .vscode/
+
+# Cursor agent configuration (local only)
+.cursor/
+AGENTS.md

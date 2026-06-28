@@ -1,0 +1,44 @@
+---
+import SiteNav from '../components/SiteNav.astro';
+import ProfileSidebar from '../components/ProfileSidebar.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  showSidebar?: boolean;
+}
+
+const { title, description = 'PhD Student at Stanford University', showSidebar = true } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="icon" type="image/png" href="/images/site-logo.png" />
+  </head>
+  <body>
+    <SiteNav />
+    {
+      showSidebar ? (
+        <div class="page-layout">
+          <ProfileSidebar />
+          <main class="main-content">
+            <slot />
+          </main>
+        </div>
+      ) : (
+        <main class="main-content" style="max-width: var(--max-width); margin: 0 auto; padding: 1.5rem;">
+          <slot />
+        </main>
+      )
+    }
+    <footer class="site-footer">
+      <p>&copy; {new Date().getFullYear()} Peijing Li</p>
+    </footer>
+  </body>
+</html>

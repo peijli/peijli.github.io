@@ -1,0 +1,36 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'research'>;
+}
+
+const { entry } = Astro.props;
+const { title, date, venue, excerpt, paperUrl, citation } = entry.data;
+const year = date.getFullYear();
+const href = `/research/${entry.id}/`;
+---
+
+<article class="card">
+  <h2><a href={href}>{title}</a></h2>
+  <p class="card-meta">Published in <em>{venue}</em>, {year}</p>
+  {excerpt && <p class="card-excerpt">{excerpt}</p>}
+  {
+    citation && (
+      <p class="citation">
+        Recommended citation: {citation}
+        {paperUrl && (
+          <>
+            <br />
+            <a href={paperUrl}>View paper</a>
+          </>
+        )}
+      </p>
+    )
+  }
+  {!citation && paperUrl && (
+    <p>
+      <a href={paperUrl}>View paper</a>
+    </p>
+  )}
+</article>

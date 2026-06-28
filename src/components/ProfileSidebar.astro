@@ -1,0 +1,60 @@
+---
+import { profile } from '../data/profile';
+---
+
+<aside class="profile-sidebar">
+  <img class="avatar" src={profile.avatar} alt={profile.name} width="180" height="180" />
+  <h2 class="name">{profile.name}</h2>
+  <p class="bio">{profile.bio}</p>
+  <ul class="meta">
+    <li>{profile.location}</li>
+    <li>{profile.employer}</li>
+  </ul>
+  <ul class="links">
+    <li><a href={profile.links.googlescholar}>Google Scholar</a></li>
+    <li><a href={profile.links.orcid}>ORCID</a></li>
+    <li><a href={profile.links.github}>GitHub</a></li>
+    <li><a href={profile.links.linkedin}>LinkedIn</a></li>
+  </ul>
+</aside>
+
+<style>
+  .profile-sidebar {
+    font-size: 0.9rem;
+  }
+
+  .avatar {
+    display: block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  .name {
+    font-size: 1.25rem;
+    margin: 0 0 0.25em;
+  }
+
+  .bio {
+    color: var(--color-muted);
+    margin: 0 0 1em;
+  }
+
+  .meta,
+  .links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em;
+  }
+
+  .meta li,
+  .links li {
+    margin-bottom: 0.35em;
+  }
+
+  .links a {
+    font-size: 0.85rem;
+  }
+</style>
