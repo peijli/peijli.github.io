@@ -31,9 +31,9 @@ Please refer to the [Research]({{ "/research/" | relative_url }}) page for a det
 
 ## Experiences
 
-I am currently serving as a teaching assistant for Stanford's [CS 217: Hardware Accelerators for Machine Learning](https://cs217.stanford.edu) course in the winter quarter of 2025.
-This course covers the design, programming, and performance of modern AI accelerators, including architectural techniques, dataflow, tensor processing, memory hierarchies, and compilation for accelerators. 
-I am currently designing lab assignments and leading relevant weekly discussion sections on numerical quantization, memory systems, and implementation of ML acclerators on FPGAs using high-level synthesis (HLS) workflows.
+I served as a teaching assistant for Stanford's [CS 217: Hardware Accelerators for Machine Learning](https://cs217.stanford.edu) course in the winter quarter of 2026.
+This course covers the design, programming, and performance of modern AI accelerators, including architectural techniques, dataflow, tensor processing, memory hierarchies, and compilation for accelerators.
+I designed lab assignments and led weekly discussion sections on numerical quantization, memory systems, and implementation of ML accelerators on FPGAs using high-level synthesis (HLS) workflows.
 
 In terms of past work experience, I worked as a software test engineer intern at [ASML](https://www.asml.com/en) in San Jose, CA during the summer of 2023, where I automated the Brion division's automated regression testing pipeline for computational lithography software.
 Before that, I worked as an instructional aide for the [Department of Civil and Environmental Engineering](https://cee.engin.umich.edu) at the University of Michigan during the winter of 2023, where I managed lab sessions and office hours for the CEE 375: Sensors and Circuits course.

@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- For a more detailed listing of my academic experiences and qualifications, please [download PDF version of the CV here](https://web.stanford.edu/~peli/files/CV.pdf) -->
+For a more detailed listing of my academic experiences and qualifications, please [download PDF version of the CV here]({{ "/files/CV.pdf" | relative_url }}).
 
 ## Education
 
@@ -17,7 +17,7 @@ redirect_from:
 
 - Research focus: computer architecture, high-level synthesis, domain-specific hardware accelerators
 
-### B.S.E. in Computer Science, University of Michigan, May 2024 (expected)
+### B.S.E. in Computer Science, University of Michigan, May 2024
 
 - Minor in Civil Engineering
 - Enrolled in the College of Engineering Honors Program

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Academics and Cousework"
+title: "Academics and Coursework"
 permalink: /academics/
 author_profile: true
 ---
