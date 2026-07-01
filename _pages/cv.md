@@ -25,6 +25,8 @@ For a more detailed listing of my academic experiences and qualifications, pleas
 
 ## Work experience
 
+- Summer 2026 (June–September): Research Intern
+  - TSMC Corporate Research, San Jose, CA
 - Winter 2026: Teaching Assistant
   - CS 217: Hardware Accelerators for Machine Learning, Stanford University, Stanford, CA
   - Duties included: designing lab assignments, leading weekly discussion sections on ML accelerators and FPGA implementation

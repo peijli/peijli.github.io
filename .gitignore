@@ -22,6 +22,8 @@ dist/
 # Ignore folders related to IDEs
 .vscode/
 
-# Cursor agent configuration (local only)
+# Agent configuration (local only)
 .cursor/
 AGENTS.md
+.claude/
+CLAUDE.md
