@@ -1,53 +1,81 @@
 :root {
-  --color-bg: #0d1117;
-  --color-surface: #161b22;
-  --color-surface-raised: #1c2333;
-  --color-border: #2b3341;
-  --color-text: #e6edf3;
-  --color-muted: #8b98a5;
-  --color-link: #39d3a5;
-  --color-accent: #39d3a5;
-  --color-accent-alt: #ffb454;
-  --color-accent-contrast: #04120c;
+  /* Dark theme — warm-black neutrals from the Stanford identity palette
+     (identity.stanford.edu/design-elements/color/), with Digital Red
+     (the web/interactive variant of Cardinal Red) as the accent. */
+  --color-bg: #16140f;
+  --color-surface: #201e19;
+  --color-surface-raised: #2b2924;
+  --color-border: #53565a;
+  --color-text: #eaeaea;
+  --color-muted: #ababa9;
+  --color-link: #e50808;
+  --color-accent: #e50808;
+  --color-accent-alt: #e98300;
+  --color-accent-contrast: #ffffff;
   --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
-  --font-heading: var(--font-mono);
+  --font-mono: 'Ubuntu Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+  --font-heading: 'Space Grotesk', var(--font-sans);
+  --font-body: 'Newsreader', Georgia, 'Times New Roman', serif;
   --max-width: 900px;
 }
 
 [data-theme='light'] {
-  --color-bg: #fafaf8;
-  --color-surface: #ffffff;
-  --color-surface-raised: #f2f2ef;
-  --color-border: #dcdcd6;
-  --color-text: #1a1a1a;
-  --color-muted: #5a5f66;
-  --color-link: #0b7a5b;
-  --color-accent: #0b7a5b;
-  --color-accent-alt: #b3690a;
+  --color-bg: #ffffff;
+  --color-surface: #f4f4f2;
+  --color-surface-raised: #eaeaea;
+  --color-border: #d5d5d4;
+  --color-text: #2e2d29;
+  --color-muted: #53565a;
+  --color-link: #b1040e;
+  --color-accent: #b1040e;
+  --color-accent-alt: #e98300;
   --color-accent-contrast: #ffffff;
 }
 
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: url('/fonts/jetbrains-mono-400.woff2') format('woff2');
+  font-family: 'Ubuntu Mono';
+  src: url('/fonts/ubuntu-mono-400.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: url('/fonts/jetbrains-mono-500.woff2') format('woff2');
+  font-family: 'Ubuntu Mono';
+  src: url('/fonts/ubuntu-mono-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/space-grotesk-var.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: url('/fonts/jetbrains-mono-700.woff2') format('woff2');
+  font-family: 'Space Grotesk';
+  src: url('/fonts/space-grotesk-var.woff2') format('woff2');
   font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  src: url('/fonts/newsreader-var.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  src: url('/fonts/newsreader-var.woff2') format('woff2');
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
@@ -65,7 +93,7 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font-sans);
+  font-family: var(--font-body);
   color: var(--color-text);
   background: var(--color-bg);
   transition: background-color 0.15s ease, color 0.15s ease;
