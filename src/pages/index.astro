@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="Peijing Li">
+  <Hero />
+
+  <p>
+    I am a graduate student in Electrical Engineering at Stanford University, starting in 2024.
+    Previously, I received my B.S.E. in Computer Science and a minor in Civil Engineering from the University of Michigan, Ann Arbor in May 2024.
+    My work sits at the intersection of computer systems and programming languages.
+  </p>
+
+  <p class="quick-links">
+    <a href="/files/Resume.pdf">Resume (PDF)</a> &middot; <a href="/cv/">CV</a>
+  </p>
+
+  <h2>Research</h2>
+
+  <p>
+    My past research developed compiler and system software for heterogeneous memory in AI accelerators, motivated by the observation that most accelerator memory accesses are extremely short-lived.
+    This work is framed by the position paper <a href="/research/2025-10-13-dimes-stram/">&ldquo;Towards Memory Specialization: A Case for Long-Term and Short-Term RAM&rdquo;</a> (DIMES '25), and spans projects including <a href="/research/2025-08-05-gainsight/">GainSight</a>, an open-source framework that profiles workload data lifetimes against device characteristics.
+    I am currently a research intern at TSMC Corporate Research, further exploring the impacts of advanced manufacturing, packing technologies, memory devices, and heterogeneous systems on the performance of current and future AI accelerators.
+  </p>
+
+  <p>
+    Going forward, my rotational advisor is <a href="https://cs.stanford.edu/~keithw">Prof. Keith Winstein</a> through the Fall 2026 academic quarter, and I am shifting toward the boundary between computer systems and programming languages: deterministic, content-addressed, and serverless computation, distributed dataflow and task-graph execution, and the formal semantics of how programs execute.
+    I am especially interested in how deterministic dependencies, memoization, and precise evaluation rules can support operator fusion, symbolic execution, and termination prediction at the compiler level; as well as how a deterministic computation model can be adapted for the latest advances in distributed architectures and systems.
+  </p>
+
+  <p>
+    See the <a href="/research/">Research</a> page for a detailed list of my research experiences and projects, and the <a href="/academics/">Academics</a> page for my coursework and academic projects.
+  </p>
+
+  <h2>Experience</h2>
+
+  <ul>
+    <li>
+      <strong>Teaching Assistant, Stanford CS 217</strong> (Winter 2026) &mdash; I served as a teaching assistant for Stanford's <a href="https://cs217.stanford.edu">CS 217: Hardware Accelerators for Machine Learning</a>, which covers the design, programming, and performance of modern AI accelerators, including architectural techniques, dataflow, tensor processing, memory hierarchies, and compilation for accelerators.
+      I designed lab assignments and led weekly discussion sections on numerical quantization, memory systems, and implementation of ML accelerators on FPGAs using high-level synthesis (HLS) workflows.
+    </li>
+    <li>
+      <strong>Software Test Engineer Intern, <a href="https://www.asml.com/en">ASML</a></strong> (Summer 2023, San Jose, CA) &mdash; I automated the Brion division's regression testing pipeline for computational lithography software.
+    </li>
+    <li>
+      <strong>Instructional Aide, University of Michigan </strong> (Winter 2023) &mdash; I managed lab sessions and office hours for the CEE 375: Sensors and Circuits course.
+      Bridging my students' civil-engineering background with the electrical-engineering concepts in the course was especially rewarding.
+    </li>
+    <li>
+      <strong>Software Engineering Intern, Dell EMC</strong> (Summer 2021, Shanghai, China) &mdash; I performed integration testing on the <a href="https://www.dell.com/en-us/dt/converged-infrastructure/vxrail/index.htm">VxRail hyperconverged infrastructure</a> software and the <a href="https://www.vmware.com/products/cloud-foundation.html">VMware Cloud Foundation software stack</a>.
+    </li>
+  </ul>
+
+  <h2>Service</h2>
+
+  <p>
+    I was a member of the <a href="https://www.tbp.org/home.cfm">Tau Beta Pi</a> <a href="https://tbp.engin.umich.edu">Michigan Gamma Chapter</a> from 2023 to 2024.
+  </p>
+
+  <h2>Personal</h2>
+
+  <p>
+    The <a href="https://lsjumb.stanford.edu">Leland Stanford Junior University Marching Band</a> has been a significant part of my time at Stanford ever since I joined in the fall of 2024, and I play marching drums, the glockenspiel, and the piccolo in the band.
+    It is a place where, paradoxically, I find a sense of myself in the chaos and insanity the band is known for.
+  </p>
+
+  <p>
+    In terms of competitive team sports, I was a member of the University of Michigan <a href="https://www.umcycling.org">Club Cycling Team</a> from 2021 to 2023.
+  </p>
+
+  <p>
+    When it comes to slightly more fringe and frivolous interests, I have also been incredibly invested in the <a href="https://en.touhouwiki.net/wiki/Touhou_Wiki">Touhou Project</a> game series out of Japan.
+    Try to catch me at an anime convention near you if you can!
+  </p>
+</BaseLayout>
+
+<style>
+  .quick-links {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+  }
+
+  .news {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .news li {
+    margin-bottom: 0.4em;
+  }
+
+  .news-date {
+    display: inline-block;
+    min-width: 5.5em;
+    margin-right: 0.75em;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    color: var(--color-muted);
+  }
+
+  @media (max-width: 600px) {
+    .news-date {
+      display: block;
+      margin-bottom: 0.1em;
+    }
+  }
+</style>

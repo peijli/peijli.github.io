@@ -1,0 +1,149 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const research = (await getCollection('research')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime(),
+);
+const projects = (await getCollection('projects')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime(),
+);
+---
+
+<BaseLayout title="Curriculum Vitae">
+  <h1>Curriculum Vitae</h1>
+
+  <p>
+    For a more detailed listing of my academic experiences and qualifications, please
+    <a href="/files/CV.pdf">download PDF version of the CV here</a>.
+  </p>
+
+  <h2>Education</h2>
+
+  <h3>Ph.D. in Electrical Engineering, Stanford University</h3>
+  <ul>
+    <li>Research focus: computer systems and programming languages; deterministic and serverless computation and execution semantics; previously, memory systems and compilers for domain-specific hardware accelerators</li>
+  </ul>
+
+  <h3>B.S.E. in Computer Science, University of Michigan, May 2024</h3>
+  <ul>
+    <li>Minor in Civil Engineering</li>
+    <li>Enrolled in the College of Engineering Honors Program</li>
+    <li>GPA: 4.0/4.0 with 144 completed credits</li>
+  </ul>
+
+  <h2>Honors &amp; Awards</h2>
+
+  <ul>
+    <li>
+      <strong>Qualcomm Innovation Fellowship (North America) 2026 &mdash; Finalist</strong>, for the proposal
+      <em>&ldquo;Refresh-Aware Scheduling and Memory Planning for AI Accelerators with On-Chip Short-Term RAM&rdquo;</em>
+      (project Remi), a two-institution collaboration.
+    </li>
+  </ul>
+
+  <h2>Work experience</h2>
+
+  <ul>
+    <li>
+      Summer 2026 (June–September): Research Intern
+      <ul>
+        <li>TSMC Corporate Research, San Jose, CA</li>
+      </ul>
+    </li>
+    <li>
+      Winter 2026: Teaching Assistant
+      <ul>
+        <li>CS 217: Hardware Accelerators for Machine Learning, Stanford University, Stanford, CA</li>
+        <li>Duties included: designing lab assignments, leading weekly discussion sections on ML accelerators and FPGA implementation</li>
+        <li>Supervisor: Prof. Thierry Tambe and Kunle Olukotun</li>
+      </ul>
+    </li>
+    <li>
+      Fall 2024: Research Assistant
+      <ul>
+        <li>Stanford University, Stanford, CA</li>
+        <li>Duties included: research on heterogeneous memory systems for AI accelerators</li>
+      </ul>
+    </li>
+    <li>
+      Summer 2023: Software Test Engineer Intern
+      <ul>
+        <li>ASML Silicon Valley, San Jose, CA</li>
+        <li>Duties included: automating regression testing for computational lithography software</li>
+        <li>Supervisor: Mingjing Zhao</li>
+      </ul>
+    </li>
+    <li>
+      Winter 2023: Instructional Aide
+      <ul>
+        <li>Department of Civil and Environmental Engineering, University of Michigan, Ann Arbor, MI</li>
+        <li>Duties included: managing lab sessions and office hours for CEE 375: Sensors and Circuits course</li>
+        <li>Supervisor: Dr. Jeff Scruggs</li>
+      </ul>
+    </li>
+    <li>
+      Summer 2022: Research Assistant
+      <ul>
+        <li>University of Michigan Transportation Research Institute, Ann Arbor, MI</li>
+        <li>Duties included: data collection and input for development of <a href="http://humanshape.org">HumanShape</a> model</li>
+        <li>Supervisor: Dr. Jingwen Hu</li>
+      </ul>
+    </li>
+    <li>
+      Summer 2021: Software Engineering Intern
+      <ul>
+        <li>Dell EMC, Shanghai, China</li>
+        <li>Duties included: performing integration testing on VxRail HCI software</li>
+        <li>Supervisor: Carl Shi</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Skills</h2>
+
+  <ul>
+    <li>Programming skills: C/C++, Python, Java, JavaScript, x86/ARM/RISC-V assembly, SystemVerilog</li>
+    <li>Software skills: TensorFlow, PyTorch, TensorBoard, Git, Jira, Confluence, MATLAB, LLVM, Docker, Mathematica, Adobe Premiere Pro</li>
+    <li>Language skills: English (proficient), Mandarin Chinese (native)</li>
+  </ul>
+
+  <h2>Publications</h2>
+
+  <ul>
+    {
+      research.map((entry) => (
+        <li>
+          <a href={`/research/${entry.id}/`}>{entry.data.title}</a>
+          {entry.data.citation && <span class="citation"> — {entry.data.citation}</span>}
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>Academic Projects</h2>
+
+  <ul>
+    {
+      projects.map((entry) => (
+        <li>
+          <a href={`/academics/${entry.id}/`}>{entry.data.title}</a>
+          <span class="citation"> — {entry.data.type}, {entry.data.venue}</span>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>
+
+<style>
+  .citation {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--color-muted);
+  }
+
+  h2 {
+    border-left: 3px solid var(--color-accent);
+    padding-left: 0.6em;
+  }
+</style>

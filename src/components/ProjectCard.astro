@@ -1,0 +1,19 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'projects'>;
+}
+
+const { entry } = Astro.props;
+const { title, date, type, venue } = entry.data;
+const year = date.getFullYear();
+const href = `/academics/${entry.id}/`;
+---
+
+<article class="card">
+  <h2><a href={href}>{title}</a></h2>
+  <p class="card-meta">
+    {type}, <em>{venue}</em>, {year}
+  </p>
+</article>

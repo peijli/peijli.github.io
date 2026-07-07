@@ -1,0 +1,43 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('research');
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { title, date, venue, paperUrl, citation } = entry.data;
+const year = date.getFullYear();
+---
+
+<BaseLayout title={title}>
+  <article>
+    <h1>{title}</h1>
+    <p class="card-meta">Published in <em>{venue}</em>, {year}</p>
+
+    {
+      citation && paperUrl && (
+        <p class="citation" style="margin-bottom: 1.5em;">
+          Recommended citation: {citation}
+          <br />
+          <a href={paperUrl}>View paper</a>
+        </p>
+      )
+    }
+
+    <Content />
+  </article>
+</BaseLayout>
+
+<style>
+  .card-meta {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+</style>

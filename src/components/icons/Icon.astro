@@ -1,0 +1,45 @@
+---
+interface Props {
+  name: 'github' | 'scholar' | 'linkedin' | 'orcid' | 'sun' | 'moon';
+  size?: number;
+}
+
+const { name, size = 18 } = Astro.props;
+---
+
+{name === 'github' && (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={size} height={size} fill="currentColor" aria-hidden="true">
+    <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.13-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.95.1-.74.4-1.25.72-1.53-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.02 11.02 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.58.24 2.75.12 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.25 5.69.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .31.21.66.79.55A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
+  </svg>
+)}
+
+{name === 'scholar' && (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={size} height={size} fill="currentColor" aria-hidden="true">
+    <path d="M12 2 1 8.5l4 2.3v6.3l7 3.9 7-3.9v-6.3l2-1.15V17h1.5V8.5L12 2Zm0 1.73 8.44 4.77L12 13.27 3.56 8.5 12 3.73ZM6.5 12.1l5.5 3.1 5.5-3.1v4.5L12 20.1l-5.5-3.5v-4.5Z" />
+  </svg>
+)}
+
+{name === 'linkedin' && (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={size} height={size} fill="currentColor" aria-hidden="true">
+    <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.44-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z" />
+  </svg>
+)}
+
+{name === 'orcid' && (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={size} height={size} fill="currentColor" aria-hidden="true">
+    <path d="M12 .5C5.65.5.5 5.65.5 12S5.65 23.5 12 23.5 23.5 18.35 23.5 12 18.35.5 12 .5ZM7.75 7.5a1.13 1.13 0 1 1 0 2.25 1.13 1.13 0 0 1 0-2.25Zm-1 3.4h2v9h-2v-9Zm4 0h3.4c3.2 0 4.6 2.3 4.6 4.5 0 2.4-1.9 4.5-4.6 4.5h-3.4v-9Zm2 1.7v5.6h1.2c1.9 0 2.9-1.35 2.9-2.8 0-1.3-.75-2.8-2.9-2.8h-1.2Z" />
+  </svg>
+)}
+
+{name === 'sun' && (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={size} height={size} fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="4.5" />
+    <path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8l1.8-1.8M18 6l1.8-1.8" />
+  </svg>
+)}
+
+{name === 'moon' && (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={size} height={size} fill="currentColor" aria-hidden="true">
+    <path d="M20.7 14.9A8.5 8.5 0 0 1 9.1 3.3a.6.6 0 0 0-.75-.8A9.5 9.5 0 1 0 21.5 15.65a.6.6 0 0 0-.8-.75Z" />
+  </svg>
+)}
