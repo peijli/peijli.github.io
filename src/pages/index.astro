@@ -9,7 +9,7 @@ import Hero from '../components/Hero.astro';
   <p>
     I am a graduate student (started 2024) in Electrical Engineering at Stanford University in Stanford, CA.
     Previously, I received my B.S.E. in Computer Science and a minor in Civil Engineering from the University of Michigan, Ann Arbor in May 2024.
-    My work centers on memory systems for domain-specific hardware accelerators.
+    My work sits at the intersection of computer systems and programming languages.
   </p>
 
   <p class="quick-links">
@@ -19,10 +19,14 @@ import Hero from '../components/Hero.astro';
   <h2>Research</h2>
 
   <p>
-    My primary research interests lie in memory systems for domain-specific hardware accelerators, specifically in the context of AI/ML workloads.
-    I am particularly interested in tackling the <a href="https://arxiv.org/abs/2403.14123">memory wall</a> problem, given memory-intensive modern AI applications and the rapid growth in demand for DRAM and SRAM capacity they bring.
-    I believe the architectural solution is centered around heterogeneity in both on-chip and off-chip memory systems.
-    Different types of data accesses are served by different specialized memory devices and arrays, with varying trade-offs in latency, density, retention time, and energy consumption.
+    My past research developed compiler and system software for heterogeneous memory in AI accelerators, motivated by the observation that most accelerator memory accesses are extremely short-lived.
+    This work is framed by the position paper <a href="/research/2025-10-13-dimes-stram/">&ldquo;Towards Memory Specialization: A Case for Long-Term and Short-Term RAM&rdquo;</a> (DIMES '25), and spans projects including <a href="/research/2025-08-05-gainsight/">GainSight</a>, an open-source framework that profiles workload data lifetimes against device characteristics.
+    I am currently a research intern at TSMC Corporate Research, further exploring the impacts of advanced manufacturing, packing technologies, memory devices, and heterogeneous systems on the performance of current and future AI accelerators.
+  </p>
+
+  <p>
+    Going forward, my rotational advisor is <a href="https://cs.stanford.edu/~keithw">Prof. Keith Winstein</a> (Fall 2026 rotation), and I am shifting toward the boundary between computer systems and programming languages: deterministic, content-addressed, and serverless computation, distributed dataflow and task-graph execution, and the formal semantics of how programs execute.
+    I am especially interested in how deterministic dependencies, memoization, and precise evaluation rules can support operator fusion, symbolic execution, and termination prediction at the compiler level; as well as how a deterministic computation model can be adapted for the latest advances in distributed architectures and systems.
   </p>
 
   <p>
