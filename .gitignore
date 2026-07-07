@@ -3,7 +3,6 @@ local/
 
 # Ignore files created by npm
 node_modules
-package-lock.json
 
 # Astro build output
 dist/
