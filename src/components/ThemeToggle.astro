@@ -60,4 +60,9 @@ import Icon from './icons/Icon.astro';
     root.setAttribute('data-theme', next);
     localStorage.setItem('theme', next);
   });
+
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
+    if (localStorage.getItem('theme')) return;
+    document.documentElement.setAttribute('data-theme', event.matches ? 'dark' : 'light');
+  });
 </script>
