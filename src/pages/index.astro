@@ -1,54 +1,120 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
+
+const updates = [
+  {
+    date: 'Jun 2026',
+    body: 'Started a research internship at TSMC Corporate Research in San Jose, working on analytical performance modeling for large language model inference.',
+  },
+  {
+    date: 'Feb 2026',
+    body: 'Preprint posted: <a href="/research/2026-02-24-gcram-exploration/">Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler</a>, which uses GainSight as its evaluation methodology.',
+  },
+  {
+    date: 'Feb 2026',
+    body: 'Preprint posted: <a href="/research/2026-02-03-llm-fsm/">LLM-FSM</a>, a benchmark for finite-state reasoning in RTL code generation.',
+  },
+  {
+    date: 'Winter 2026',
+    body: 'Served as head teaching assistant for Stanford CS 217, rebuilt from the ground up after a four-year hiatus and enrolling roughly 100 students.',
+  },
+  {
+    date: 'Oct 2025',
+    body: '<a href="/research/2025-10-13-dimes-stram/">Towards Memory Specialization</a> presented at the DIMES workshop at SOSP in Seoul.',
+  },
+  {
+    date: 'Aug 2025',
+    body: 'The undergraduate researcher I mentored over the summer presented their work at the closing symposium of the Stanford Engineering visiting research program.',
+  },
+];
 ---
 
 <BaseLayout title="Peijing Li">
   <Hero />
 
   <p>
-    I am a graduate student in Electrical Engineering at Stanford University, starting in 2024.
-    Previously, I received my B.S.E. in Computer Science and a minor in Civil Engineering from the University of Michigan, Ann Arbor in May 2024.
-    My work sits at the intersection of computer systems and programming languages.
+    I build tools that make hardware and compiler decisions measurable and provable, from data-lifetime profiling to solver-backed memory placement.
+  </p>
+
+  <p>
+    I am a Ph.D. student in Electrical Engineering at Stanford University, entering my third year in Fall 2026, and I am simultaneously completing an M.S. in Electrical Engineering, expected in December 2026.
+    Before Stanford I received my B.S.E. in Computer Science, with a minor in Civil Engineering, from the University of Michigan in 2024, summa cum laude.
   </p>
 
   <p class="quick-links">
-    <a href="/files/Resume.pdf">Resume (PDF)</a> &middot; <a href="/cv/">CV</a>
+    <a href="/files/Resume.pdf">Resume (PDF)</a> &middot; <a href="/cv/">CV</a> &middot; <a href="mailto:peli@stanford.edu">peli@stanford.edu</a>
   </p>
+
+  <h2>Updates</h2>
+
+  <ul class="news">
+    {
+      updates.map((item) => (
+        <li>
+          <span class="news-date">{item.date}</span>
+          <span set:html={item.body} />
+        </li>
+      ))
+    }
+  </ul>
 
   <h2>Research</h2>
 
   <p>
-    My past research developed compiler and system software for heterogeneous memory in AI accelerators, motivated by the observation that most accelerator memory accesses are extremely short-lived.
-    This work is framed by the position paper <a href="/research/2025-10-13-dimes-stram/">&ldquo;Towards Memory Specialization: A Case for Long-Term and Short-Term RAM&rdquo;</a> (DIMES '25), and spans projects including <a href="/research/2025-08-05-gainsight/">GainSight</a>, an open-source framework that profiles workload data lifetimes against device characteristics.
-    I am currently a research intern at TSMC Corporate Research, further exploring the impacts of advanced manufacturing, packing technologies, memory devices, and heterogeneous systems on the performance of current and future AI accelerators.
+    My work sits at the boundary between compilers and hardware.
+    I build systems that reason formally about runtime behavior at compile time: <a href="/projects/gainsight/">GainSight</a>, a profiler that measures how long data actually lives inside an accelerator, and <a href="/projects/flan/">Flan</a>, a compiler framework that turns those measurements into a provably optimal placement schedule across heterogeneous memory.
+    The same lifetime measurements drive the refresh policy of an embedded DRAM controller I designed for a <a href="/projects/gemma/">16nm accelerator tapeout</a>, which is where the analysis stops being a simulation result and becomes silicon.
   </p>
 
   <p>
-    Going forward, my rotational advisor is <a href="https://cs.stanford.edu/~keithw">Prof. Keith Winstein</a> through the Fall 2026 academic quarter, and I am shifting toward the boundary between computer systems and programming languages: deterministic, content-addressed, and serverless computation, distributed dataflow and task-graph execution, and the formal semantics of how programs execute.
-    I am especially interested in how deterministic dependencies, memoization, and precise evaluation rules can support operator fusion, symbolic execution, and termination prediction at the compiler level; as well as how a deterministic computation model can be adapted for the latest advances in distributed architectures and systems.
+    The motivating observation is that most accelerator memory accesses are extremely short-lived, so memory provisioned to retain data for milliseconds is overprovisioned for nearly everything it holds.
+    That argument is set out in the position paper <a href="/research/2025-10-13-dimes-stram/">&ldquo;Towards Memory Specialization: A Case for Long-Term and Short-Term RAM&rdquo;</a> (DIMES '25).
   </p>
 
   <p>
-    See the <a href="/research/">Research</a> page for a detailed list of my research experiences and projects, and the <a href="/academics/">Academics</a> page for my coursework and academic projects.
+    Through the Fall 2026 academic quarter I am rotating with <a href="https://cs.stanford.edu/~keithw">Prof. Keith Winstein</a>, reading into deterministic and content-addressed computation and the formal semantics of program execution.
+    This is exploratory: it is a direction I am studying, not one I have published in.
+  </p>
+
+  <p>
+    See the <a href="/projects/">Projects</a> page for the systems I have built, the <a href="/research/">Research</a> page for papers and prior research directions, and the <a href="/academics/">Academics</a> page for coursework and academic projects.
   </p>
 
   <h2>Experience</h2>
 
   <ul>
     <li>
-      <strong>Teaching Assistant, Stanford CS 217</strong> (Winter 2026) &mdash; I served as a teaching assistant for Stanford's <a href="https://cs217.stanford.edu">CS 217: Hardware Accelerators for Machine Learning</a>, which covers the design, programming, and performance of modern AI accelerators, including architectural techniques, dataflow, tensor processing, memory hierarchies, and compilation for accelerators.
-      I designed lab assignments and led weekly discussion sections on numerical quantization, memory systems, and implementation of ML accelerators on FPGAs using high-level synthesis (HLS) workflows.
+      <strong>Research Intern, TSMC Corporate Research</strong> (Summer 2026, San Jose, CA) &mdash; I extended an in-house analytical model for ASIC and GPU performance so that it supports workload profiling for large language model inference, and investigated embedded DRAM opportunities across activations, KV cache, and weights.
+      The work is proprietary, so I can describe its shape but not its results.
     </li>
     <li>
-      <strong>Software Test Engineer Intern, <a href="https://www.asml.com/en">ASML</a></strong> (Summer 2023, San Jose, CA) &mdash; I automated the Brion division's regression testing pipeline for computational lithography software.
+      <strong>Head Teaching Assistant, Stanford CS 217</strong> (Winter 2026) &mdash; <a href="https://cs217.stanford.edu">CS 217: Hardware Accelerators for Machine Learning</a> had not been offered since Winter 2022. Together with three other teaching assistants and two faculty instructors, I rebuilt it from the ground up, and enrollment reached roughly 100 students against an expected 40 to 60.
+      I authored the lab sequence in which students build a large language model accelerator one component per assignment &mdash; a systolic array, a memory hierarchy, and a compiler backend &mdash; culminating in an open-ended final project.
+      All starter code was written from scratch; the SystemC and Verilog accelerator code was adapted from my own 16nm tapeout with the block floating-point and microscaling formats removed.
+      Lab turnaround time on FPGA was the binding constraint, so I tuned DSP utilization for the arithmetic circuits through Siemens Catapult and Xilinx Vivado until it was tractable.
+      I also designed the final-project rubric and gave in-person feedback on every project proposal.
     </li>
     <li>
-      <strong>Instructional Aide, University of Michigan </strong> (Winter 2023) &mdash; I managed lab sessions and office hours for the CEE 375: Sensors and Circuits course.
+      <strong>Research Mentor, Stanford Engineering Undergraduate Visiting Research Program</strong> (Summer 2025) &mdash; I defined the problem scope for a rising senior's ten-week project and onboarded them to two active projects.
+      Their work extended the Synopsys ASIP Designer toolchain with cycle-accurate memory-access logging, which it did not previously have, by instrumenting the RTL testbench memory module to emit load and store records with cycle numbers and addresses.
+      They went on to build a Python pipeline that converts raw traces into a GainSight-compatible memory log, and to design a DMA-based DRAM subsystem for a VLIW and RISC-V AI core, profiling four processor designs across workloads from single CNN layers up to Llama-3-8B.
+      They presented at the program's closing symposium in August 2025.
+    </li>
+    <li>
+      <strong>Software Test Engineer Intern, <a href="https://www.asml.com/en">ASML</a></strong> (Summer 2023, San Jose, CA) &mdash; I owned the automation of nightly regression triage for focus-exposure modeling software.
+      The suite ran roughly 300 test cases over about six hours, and attributing each failure to a commit and an owner cost two to three hours every day, spread across a five-engineer team.
+      Afterwards it ran unattended in five to ten minutes and emailed my supervisor a summary of failing tests with their owners, leaving a human only the triage decision.
+      The scripts outlasted the internship and are still a maintained part of the team's workflow three years later.
+    </li>
+    <li>
+      <strong>Instructional Aide, University of Michigan</strong> (Winter 2023) &mdash; I ran weekly lab sections for CEE 375: Sensors, Circuits, and Signals, where students built sensing and signal-processing circuits on breadboards with Arduino and MATLAB.
       Bridging my students' civil-engineering background with the electrical-engineering concepts in the course was especially rewarding.
     </li>
     <li>
-      <strong>Software Engineering Intern, Dell EMC</strong> (Summer 2021, Shanghai, China) &mdash; I performed integration testing on the <a href="https://www.dell.com/en-us/dt/converged-infrastructure/vxrail/index.htm">VxRail hyperconverged infrastructure</a> software and the <a href="https://www.vmware.com/products/cloud-foundation.html">VMware Cloud Foundation software stack</a>.
+      <strong>Software Engineering Intern, Dell EMC</strong> (Summer 2021, Shanghai, China) &mdash; I automated lifecycle-management validation for <a href="https://www.dell.com/en-us/dt/converged-infrastructure/vxrail/index.htm">VxRail hyperconverged infrastructure</a> across the Kubernetes interface, the VMware ESXi hypervisor, and the <a href="https://www.vmware.com/products/cloud-foundation.html">VMware Cloud Foundation</a> stack, using Python and Selenium.
+      A procedure that took three to four hours of stepping through routines by hand became roughly 30 minutes running unattended, and it eliminated most of the physical trips to the server room to check cluster status.
+      I also interfaced with C++ kernel code in the bare-metal hypervisor and debugged physical server racks when experimental deployments failed to boot.
     </li>
   </ul>
 
@@ -72,6 +138,18 @@ import Hero from '../components/Hero.astro';
   <p>
     When it comes to slightly more fringe and frivolous interests, I have also been incredibly invested in the <a href="https://en.touhouwiki.net/wiki/Touhou_Wiki">Touhou Project</a> game series out of Japan.
     Try to catch me at an anime convention near you if you can!
+  </p>
+
+  <h2>Contact</h2>
+
+  <p>
+    The best way to reach me is by email at <a href="mailto:peli@stanford.edu">peli@stanford.edu</a>.
+    I finish my M.S. in December 2026 and will be available for full-time work from approximately February 2027.
+    I am looking for industry roles in hardware formal and design verification, compiler engineering, and performance engineering &mdash; if that overlaps with what your team is building, I would be glad to talk.
+  </p>
+
+  <p>
+    You can also find me on <a href="https://github.com/peijli">GitHub</a>, <a href="https://www.linkedin.com/in/peijing-li">LinkedIn</a>, and <a href="https://scholar.google.com/citations?user=m96juKIAAAAJ">Google Scholar</a>.
   </p>
 </BaseLayout>
 

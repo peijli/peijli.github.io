@@ -11,6 +11,11 @@ citation: 'Peijing Li, Matthew Hung, Yiming Tan, Konstantin Hoßfeld, Jake Cheng
 
 As AI workloads drive increasing memory requirements, domain-specific accelerators need higher-density on-chip memory beyond what current SRAM scaling trends can provide. Simultaneously, the vast amounts of short-lived data in these workloads make SRAM overprovisioned in retention capability. To address this mismatch, we propose a wholesale shift from uniform SRAM arrays to heterogeneous on-chip memory, incorporating denser short-term RAM (StRAM) devices whose limited retention times align with transient data lifetimes. To facilitate this shift, we introduce GainSight, the first comprehensive, open-source framework that aligns dynamic, fine-grained workload lifetime profiles with memory device characteristics to enable generation of optimal StRAM memory compositions. GainSight combines retargetable profiling backends with an architecture-agnostic analytical frontend. The various backends capture cycle-accurate data lifetimes, while the frontend correlates workload patterns with StRAM retention properties to generate optimal memory compositions and project performance. GainSight elevates data lifetime to a first-class design consideration for next-generation AI accelerators, enabling systematic exploitation of data transience for improved on-chip memory density and efficiency. Applying GainSight to MLPerf Inference and PolyBench workloads reveals that 64.3% of first-level GPU cache accesses and 79.01% of systolic array scratchpad accesses exhibit sub-microsecond lifetimes suitable for high-density StRAM, with optimal heterogeneous on-chip memory compositions achieving up to 3x active energy and 4x area reductions compared to uniform SRAM hierarchies. To facilitate adoption and further research, GainSight is open-sourced at https://gainsight.stanford.edu/.
 
+## Code
+
+The published abstract above directs readers to a documentation site hosted in my former research group's namespace, which I no longer control.
+Until I have finished mirroring the source to my own account, please treat the [arXiv abstract](https://arxiv.org/abs/2504.14866) as the canonical reference for this work.
+
 ## Citation
 
 The BibTeX entry for this paper is

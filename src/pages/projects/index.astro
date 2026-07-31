@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const projects = (await getCollection('projects'))
+  .filter((entry) => entry.data.category === 'flagship')
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title="Projects" description="Systems I have built: a data lifetime profiler, a solver-backed placement compiler, and a 16nm accelerator tapeout.">
+  <h1>Projects</h1>
+
+  <p>
+    Three systems that between them cover the path I care about: measure what a workload actually does with memory,
+    prove what the best placement for it is, and put the result on silicon.
+  </p>
+
+  {
+    projects.map((entry) => (
+      <article class="card">
+        <h2><a href={`/projects/${entry.id}/`}>{entry.data.title}</a></h2>
+        <p class="card-meta">{entry.data.type}</p>
+        {entry.data.summary && <p class="card-excerpt">{entry.data.summary}</p>}
+        {entry.data.repoUrl && (
+          <p class="card-meta"><a href={entry.data.repoUrl}>Source</a></p>
+        )}
+      </article>
+    ))
+  }
+
+  <p>
+    Coursework and academic projects are on the <a href="/academics/">Academics</a> page,
+    and papers are on the <a href="/research/">Research</a> page.
+  </p>
+</BaseLayout>

@@ -5,28 +5,43 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const research = (await getCollection('research')).sort(
   (a, b) => b.data.date.getTime() - a.data.date.getTime(),
 );
-const projects = (await getCollection('projects')).sort(
-  (a, b) => b.data.date.getTime() - a.data.date.getTime(),
-);
+const allProjects = await getCollection('projects');
+const flagship = allProjects
+  .filter((entry) => entry.data.category === 'flagship')
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const coursework = allProjects
+  .filter((entry) => entry.data.category === 'coursework')
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 ---
 
 <BaseLayout title="Curriculum Vitae">
   <h1>Curriculum Vitae</h1>
 
   <p>
-    For a more detailed listing of my academic experiences and qualifications, please
-    <a href="/files/CV.pdf">download PDF version of the CV here</a>.
+    A <a href="/files/CV.pdf">PDF version of the CV is available here</a>.
+    Contact: <a href="mailto:peli@stanford.edu">peli@stanford.edu</a>.
   </p>
 
   <h2>Education</h2>
 
   <h3>Ph.D. in Electrical Engineering, Stanford University</h3>
   <ul>
-    <li>Research focus: computer systems and programming languages; deterministic and serverless computation and execution semantics; previously, memory systems and compilers for domain-specific hardware accelerators</li>
+    <li>Entering the third year in Fall 2026</li>
+    <li>
+      Research focus: the boundary between compilers and hardware &mdash; compile-time reasoning about
+      runtime behavior, data lifetime profiling, and solver-backed memory placement for domain-specific
+      accelerators
+    </li>
+  </ul>
+
+  <h3>M.S. in Electrical Engineering, Stanford University, expected December 2026</h3>
+  <ul>
+    <li>Matriculated concurrently with the Ph.D. program; remaining degree requirements are being completed in Fall 2026</li>
   </ul>
 
   <h3>B.S.E. in Computer Science, University of Michigan, May 2024</h3>
   <ul>
+    <li>Graduated summa cum laude</li>
     <li>Minor in Civil Engineering</li>
     <li>Enrolled in the College of Engineering Honors Program</li>
     <li>GPA: 4.0/4.0 with 144 completed credits</li>
@@ -46,56 +61,136 @@ const projects = (await getCollection('projects')).sort(
 
   <ul>
     <li>
-      Summer 2026 (June–September): Research Intern
+      <strong>Research Intern</strong>, TSMC Corporate Research, San Jose, CA (June &ndash; September 2026)
       <ul>
-        <li>TSMC Corporate Research, San Jose, CA</li>
+        <li>
+          Extended an in-house analytical model for ASIC and GPU performance to support workload profiling
+          for large language model inference, and investigated embedded DRAM opportunities across data types
+          including activations, KV cache, and weights.
+        </li>
+        <li>This work is proprietary; its results and architectural specifics are not disclosed here.</li>
       </ul>
     </li>
     <li>
-      Winter 2026: Teaching Assistant
+      <strong>Head Teaching Assistant</strong>, CS 217: Hardware Accelerators for Machine Learning,
+      Stanford University, Stanford, CA (Winter 2026)
       <ul>
-        <li>CS 217: Hardware Accelerators for Machine Learning, Stanford University, Stanford, CA</li>
-        <li>Duties included: designing lab assignments, leading weekly discussion sections on ML accelerators and FPGA implementation</li>
-        <li>Supervisor: Prof. Thierry Tambe and Kunle Olukotun</li>
+        <li>
+          Rebuilt the course from the ground up with three other teaching assistants and two faculty
+          instructors after a four-year hiatus; enrollment reached roughly 100 students against an expected
+          40 to 60.
+        </li>
+        <li>
+          Authored the lab sequence in which students build a large language model accelerator incrementally
+          &mdash; systolic array, memory hierarchy, and compiler backend &mdash; culminating in an open-ended
+          final project. All starter code was written from scratch; the SystemC and Verilog accelerator code
+          was adapted from my own 16nm tapeout with block floating-point and microscaling formats removed.
+        </li>
+        <li>
+          Tuned DSP utilization for the arithmetic circuits through Siemens Catapult and Xilinx Vivado to make
+          FPGA lab turnaround tractable, which was the binding constraint on the lab design.
+        </li>
+        <li>Designed the final-project rubric and gave in-person feedback on every project proposal.</li>
+        <li>Faculty instructors: Prof. Thierry Tambe and Prof. Kunle Olukotun.</li>
       </ul>
     </li>
     <li>
-      Fall 2024: Research Assistant
+      <strong>Research Mentor</strong>, Stanford Engineering Undergraduate Visiting Research Program,
+      Stanford, CA (Summer 2025)
       <ul>
-        <li>Stanford University, Stanford, CA</li>
-        <li>Duties included: research on heterogeneous memory systems for AI accelerators</li>
+        <li>
+          Defined the problem scope for a rising senior's ten-week summer research project and onboarded them
+          to two active projects.
+        </li>
+        <li>
+          Their deliverable extended the Synopsys ASIP Designer commercial toolchain with cycle-accurate
+          memory-access logging, which the toolchain lacked, by instrumenting the RTL testbench memory module
+          to emit load and store records with cycle numbers and addresses.
+        </li>
+        <li>
+          They also built a Python pipeline converting raw traces into a GainSight-compatible memory log, and
+          designed a DMA-based DRAM subsystem for a VLIW and RISC-V AI core including a three-instruction
+          custom ISA extension and an HBM-parameterized latency model.
+        </li>
+        <li>
+          Four processor designs were profiled across workloads from single CNN layers up to Llama-3-8B, plus
+          quicksort, motion estimation, and FFT. Presented at the program's closing symposium, August 2025.
+        </li>
       </ul>
     </li>
     <li>
-      Summer 2023: Software Test Engineer Intern
+      <strong>Research Assistant</strong>, Stanford University, Stanford, CA (September 2024 &ndash; March 2026)
       <ul>
-        <li>ASML Silicon Valley, San Jose, CA</li>
-        <li>Duties included: automating regression testing for computational lithography software</li>
-        <li>Supervisor: Mingjing Zhao</li>
+        <li>
+          Heterogeneous on-chip memory systems for AI accelerators, within the Differentiated Access Memories
+          project. Built <a href="/projects/gainsight/">GainSight</a>, a data lifetime profiling and memory
+          composition framework.
+        </li>
+        <li>
+          On the <a href="/projects/gemma/">GEMMA 16nm AI accelerator tapeout</a>, joined roughly four months
+          before tapeout and redesigned the embedded DRAM partition, the design-for-test module, and the
+          refresh controller, whose refresh policy is driven by data-lifetime patterns identified through
+          GainSight profiling. Also designed a high-throughput SIMD compute unit using high-level synthesis.
+        </li>
       </ul>
     </li>
     <li>
-      Winter 2023: Instructional Aide
+      <strong>Software Test Engineer Intern</strong>, ASML Silicon Valley, San Jose, CA (May &ndash; August 2023)
       <ul>
-        <li>Department of Civil and Environmental Engineering, University of Michigan, Ann Arbor, MI</li>
-        <li>Duties included: managing lab sessions and office hours for CEE 375: Sensors and Circuits course</li>
-        <li>Supervisor: Dr. Jeff Scruggs</li>
+        <li>
+          Owned the automation of nightly regression triage for focus-exposure modeling software. The suite ran
+          roughly 300 test cases over about six hours.
+        </li>
+        <li>
+          Attributing each failing test to a commit and an owner previously cost two to three hours per day
+          across a five-engineer team; afterwards attribution ran unattended in five to ten minutes and emailed
+          a summary of failing tests with their owners, leaving only the triage decision to a human.
+        </li>
+        <li>The scripts remain an actively maintained part of the team's workflow three years later.</li>
+        <li>Supervisor: Mingjing Zhao.</li>
       </ul>
     </li>
     <li>
-      Summer 2022: Research Assistant
+      <strong>Instructional Aide</strong>, CEE 375: Sensors, Circuits, and Signals, Department of Civil and
+      Environmental Engineering, University of Michigan, Ann Arbor, MI (January &ndash; April 2023)
       <ul>
-        <li>University of Michigan Transportation Research Institute, Ann Arbor, MI</li>
-        <li>Duties included: data collection and input for development of <a href="http://humanshape.org">HumanShape</a> model</li>
-        <li>Supervisor: Dr. Jingwen Hu</li>
+        <li>
+          Ran weekly laboratory sections in which students built sensing and signal-processing circuits on
+          breadboards using Arduino and MATLAB, supporting them on both the mathematics and the physical
+          debugging.
+        </li>
+        <li>Faculty instructor: Dr. Jeff Scruggs.</li>
       </ul>
     </li>
     <li>
-      Summer 2021: Software Engineering Intern
+      <strong>Research Assistant</strong>, University of Michigan Transportation Research Institute,
+      Ann Arbor, MI (February &ndash; August 2022)
       <ul>
-        <li>Dell EMC, Shanghai, China</li>
-        <li>Duties included: performing integration testing on VxRail HCI software</li>
-        <li>Supervisor: Carl Shi</li>
+        <li>
+          Co-developed a computer vision system for monitoring occupant body posture in Level-3 autonomous
+          vehicles, and built multi-body occupant models in MATLAB and Mathematica from 3D body-scan data for
+          the <a href="http://humanshape.org">HumanShape</a> project.
+        </li>
+        <li>Supervisors: Dr. Monica Jones, Dr. Jingwen Hu.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Software Engineering Intern</strong>, Dell EMC, Shanghai, China (June &ndash; August 2021)
+      <ul>
+        <li>
+          Automated lifecycle-management validation for hyperconverged infrastructure across the Kubernetes
+          interface, the VMware ESXi hypervisor, and VMware Cloud Foundation, using Python and Selenium.
+        </li>
+        <li>
+          A manual procedure that took three to four hours of stepping through routines by hand became roughly
+          30 minutes running unattended, and eliminated most physical trips to the server room to check cluster
+          status.
+        </li>
+        <li>
+          Also interfaced with C++ kernel code in the bare-metal hypervisor and debugged physical server racks
+          when experimental deployments failed to boot.
+        </li>
+        <li>Supervisor: Carl Shi.</li>
       </ul>
     </li>
   </ul>
@@ -103,9 +198,26 @@ const projects = (await getCollection('projects')).sort(
   <h2>Skills</h2>
 
   <ul>
-    <li>Programming skills: C/C++, Python, Java, JavaScript, x86/ARM/RISC-V assembly, SystemVerilog</li>
-    <li>Software skills: TensorFlow, PyTorch, TensorBoard, Git, Jira, Confluence, MATLAB, LLVM, Docker, Mathematica, Adobe Premiere Pro</li>
-    <li>Language skills: English (proficient), Mandarin Chinese (native)</li>
+    <li><strong>Languages</strong>: C, C++, Python, SystemVerilog, Verilog, SystemC, MATLAB; some exposure to Rust</li>
+    <li><strong>Compilers</strong>: LLVM, MLIR (linalg and tensor dialects), liveness analysis, pass authoring, loop transformation</li>
+    <li><strong>Formal methods and solvers</strong>: Z3, SMT, Optimization Modulo Theories, integer linear programming formulation; exposure to hardware formal verification tooling and TLA+</li>
+    <li><strong>Hardware</strong>: RTL design and verification, high-level synthesis via Siemens Catapult, physical design and signoff at 16nm, design for test, FPGA implementation via Xilinx Vivado, Synopsys ASIP Designer and the nML architecture description language, out-of-order superscalar RISC-V core implementation</li>
+    <li><strong>Simulation and performance</strong>: gem5, Accel-Sim, SCALE-Sim, NVIDIA Nsight, Cachegrind, roofline modeling</li>
+    <li><strong>Infrastructure</strong>: CI/CD pipelines, Selenium, Docker, Git, test automation</li>
+    <li><strong>Spoken languages</strong>: English, Mandarin Chinese</li>
+  </ul>
+
+  <h2>Projects</h2>
+
+  <ul>
+    {
+      flagship.map((entry) => (
+        <li>
+          <a href={`/projects/${entry.id}/`}>{entry.data.title}</a>
+          <span class="citation"> — {entry.data.type}</span>
+        </li>
+      ))
+    }
   </ul>
 
   <h2>Publications</h2>
@@ -125,7 +237,7 @@ const projects = (await getCollection('projects')).sort(
 
   <ul>
     {
-      projects.map((entry) => (
+      coursework.map((entry) => (
         <li>
           <a href={`/academics/${entry.id}/`}>{entry.data.title}</a>
           <span class="citation"> — {entry.data.type}, {entry.data.venue}</span>

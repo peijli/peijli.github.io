@@ -22,6 +22,10 @@ const projects = defineCollection({
     type: z.string(),
     venue: z.string(),
     location: z.string().optional(),
+    // 'flagship' entries render at /projects/; 'coursework' at /academics/.
+    category: z.enum(['flagship', 'coursework']).default('coursework'),
+    summary: z.string().optional(),
+    repoUrl: z.string().url().optional(),
   }),
 });
 

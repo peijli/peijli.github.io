@@ -2,7 +2,7 @@
 title: "The Future of Memory: Limits and Opportunities"
 excerpt: 'A reconsideration of proposed system architectures with huge shared memories, arguing instead for breaking memory into smaller slices tightly coupled with compute elements.'
 date: 2025-09-23
-venue: 'arXiv preprint'
+venue: 'Workshop on Big Memory Systems (BigMem 25) at SOSP'
 paperUrl: 'https://arxiv.org/abs/2508.20425'
 citation: 'Samuel Dayo, Shuhan Liu, Peijing Li, Philip Levis, Subhasish Mitra, Thierry Tambe, David Tennenhouse, and H.-S. Philip Wong. 2025. The Future of Memory: Limits and Opportunities. https://doi.org/10.48550/arXiv.2508.20425'
 ---
