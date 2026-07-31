@@ -2,32 +2,32 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 
-const updates = [
-  {
-    date: 'Jun 2026',
-    body: 'Started a research internship at TSMC Corporate Research in San Jose, working on analytical performance modeling for large language model inference.',
-  },
-  {
-    date: 'Feb 2026',
-    body: 'Preprint posted: <a href="/research/2026-02-24-gcram-exploration/">Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler</a>, which uses GainSight as its evaluation methodology.',
-  },
-  {
-    date: 'Feb 2026',
-    body: 'Preprint posted: <a href="/research/2026-02-03-llm-fsm/">LLM-FSM</a>, a benchmark for finite-state reasoning in RTL code generation.',
-  },
-  {
-    date: 'Winter 2026',
-    body: 'Served as head teaching assistant for Stanford CS 217, rebuilt from the ground up after a four-year hiatus and enrolling roughly 100 students.',
-  },
-  {
-    date: 'Oct 2025',
-    body: '<a href="/research/2025-10-13-dimes-stram/">Towards Memory Specialization</a> presented at the DIMES workshop at SOSP in Seoul.',
-  },
-  {
-    date: 'Aug 2025',
-    body: 'The undergraduate researcher I mentored over the summer presented their work at the closing symposium of the Stanford Engineering visiting research program.',
-  },
-];
+// const updates = [
+//   {
+//     date: 'Jun 2026',
+//     body: 'Started a research internship at TSMC Corporate Research in San Jose, working on analytical performance modeling for large language model inference.',
+//   },
+//   {
+//     date: 'Feb 2026',
+//     body: 'Preprint posted: <a href="/research/2026-02-24-gcram-exploration/">Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler</a>, which uses GainSight as its evaluation methodology.',
+//   },
+//   {
+//     date: 'Feb 2026',
+//     body: 'Preprint posted: <a href="/research/2026-02-03-llm-fsm/">LLM-FSM</a>, a benchmark for finite-state reasoning in RTL code generation.',
+//   },
+//   {
+//     date: 'Winter 2026',
+//     body: 'Served as head teaching assistant for Stanford CS 217, rebuilt from the ground up after a four-year hiatus and enrolling roughly 100 students.',
+//   },
+//   {
+//     date: 'Oct 2025',
+//     body: '<a href="/research/2025-10-13-dimes-stram/">Towards Memory Specialization</a> presented at the DIMES workshop at SOSP in Seoul.',
+//   },
+//   {
+//     date: 'Aug 2025',
+//     body: 'The undergraduate researcher I mentored over the summer presented their work at the closing symposium of the Stanford Engineering visiting research program.',
+//   },
+// ];
 ---
 
 <BaseLayout title="Peijing Li">
@@ -48,7 +48,7 @@ const updates = [
 
   <h2>Updates</h2>
 
-  <ul class="news">
+  <!-- <ul class="news">
     {
       updates.map((item) => (
         <li>
@@ -57,7 +57,7 @@ const updates = [
         </li>
       ))
     }
-  </ul>
+  </ul> -->
 
   <h2>Research</h2>
 
@@ -85,8 +85,7 @@ const updates = [
 
   <ul>
     <li>
-      <strong>Research Intern, TSMC Corporate Research</strong> (Summer 2026, San Jose, CA) &mdash; I extended an in-house analytical model for ASIC and GPU performance so that it supports workload profiling for large language model inference, and investigated embedded DRAM opportunities across activations, KV cache, and weights.
-      The work is proprietary, so I can describe its shape but not its results.
+      <strong>AI Hardware Research Intern, TSMC Corporate Research</strong> (Summer 2026, San Jose, CA) &mdash; I extended an in-house analytical model for ASIC and GPU performance so that it supports workload profiling for large language model inference, and investigated embedded DRAM opportunities across activations, KV cache, and weights.
     </li>
     <li>
       <strong>Head Teaching Assistant, Stanford CS 217</strong> (Winter 2026) &mdash; <a href="https://cs217.stanford.edu">CS 217: Hardware Accelerators for Machine Learning</a> had not been offered since Winter 2022. Together with three other teaching assistants and two faculty instructors, I rebuilt it from the ground up, and enrollment reached roughly 100 students against an expected 40 to 60.
@@ -95,12 +94,12 @@ const updates = [
       Lab turnaround time on FPGA was the binding constraint, so I tuned DSP utilization for the arithmetic circuits through Siemens Catapult and Xilinx Vivado until it was tractable.
       I also designed the final-project rubric and gave in-person feedback on every project proposal.
     </li>
-    <li>
+    <!-- <li>
       <strong>Research Mentor, Stanford Engineering Undergraduate Visiting Research Program</strong> (Summer 2025) &mdash; I defined the problem scope for a rising senior's ten-week project and onboarded them to two active projects.
       Their work extended the Synopsys ASIP Designer toolchain with cycle-accurate memory-access logging, which it did not previously have, by instrumenting the RTL testbench memory module to emit load and store records with cycle numbers and addresses.
       They went on to build a Python pipeline that converts raw traces into a GainSight-compatible memory log, and to design a DMA-based DRAM subsystem for a VLIW and RISC-V AI core, profiling four processor designs across workloads from single CNN layers up to Llama-3-8B.
-      They presented at the program's closing symposium in August 2025.
-    </li>
+      <!-- They presented at the program's closing symposium in August 2025. -->
+    </li> -->
     <li>
       <strong>Software Test Engineer Intern, <a href="https://www.asml.com/en">ASML</a></strong> (Summer 2023, San Jose, CA) &mdash; I owned the automation of nightly regression triage for focus-exposure modeling software.
       The suite ran roughly 300 test cases over about six hours, and attributing each failure to a commit and an owner cost two to three hours every day, spread across a five-engineer team.
