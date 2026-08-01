@@ -4,7 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
   const entries = (await getCollection('projects')).filter(
-    (entry) => entry.data.category === 'coursework',
+    (entry) => entry.data.category === 'flagship',
   );
   return entries.map((entry) => ({
     params: { slug: entry.id },
@@ -14,15 +14,20 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const { title, date, type, venue } = entry.data;
-const year = date.getFullYear();
+const { title, type, venue, repoUrl } = entry.data;
 ---
 
-<BaseLayout title={title}>
+<BaseLayout title={title} description={entry.data.summary}>
   <article>
     <h1>{title}</h1>
     <p class="card-meta">
-      {type}, <em>{venue}</em>, {year}
+      {type}, <em>{venue}</em>
+      {repoUrl && (
+        <>
+          {' · '}
+          <a href={repoUrl}>Source</a>
+        </>
+      )}
     </p>
     <Content />
   </article>

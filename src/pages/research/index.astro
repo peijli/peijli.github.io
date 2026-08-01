@@ -12,61 +12,78 @@ const publications = (await getCollection('research')).sort(
 <BaseLayout title="Research">
   <h1>Research</h1>
 
-  <h2>Deterministic Computation and Execution Semantics</h2>
-  <h3>2026 -- Present</h3>
-
   <p>
-    My work is moving toward the boundary between computer systems and programming languages: deterministic, content-addressed, and serverless computation, distributed dataflow and task-graph execution, and the formal semantics of how programs execute.
-    The guiding idea is to treat a computation with well-specified dependencies as a first-class, reproducible object that a platform can reason about rather than run opaquely.
-    I am especially interested in how deterministic dependencies, memoization, and precise evaluation rules can support operator fusion, symbolic execution, and termination prediction.
+    My work sits at the boundary between compilers and hardware.
+    I build systems that reason formally about runtime behavior at compile time: a profiler that measures how long data actually lives inside an accelerator, and a compiler framework that turns those measurements into a provably optimal placement schedule across heterogeneous memory.
+    The systems themselves are described on the <a href="/projects/">Projects</a> page; this page covers the research context and the publication record.
   </p>
 
-  <h2><a href="https://dam.stanford.edu">Memory Systems for AI Accelerators: Differentiated Access Memories, LtRAM, and StRAM</a></h2>
-  <h3>September 2024 -- 2026</h3>
+  <h2>Memory Systems for AI Accelerators: LtRAM and StRAM</h2>
+  <h3>September 2024 &ndash; March 2026</h3>
 
   <p>
-    Earlier in my Ph.D., my primary research direction was memory systems for domain-specific hardware accelerators, in collaboration with researchers across the Computer Science and Electrical Engineering departments at Stanford.
-  </p>
-
-  <p>
-    DAM (Differentiated Access Memories) is a five-year project at Stanford University to research and define how future computers will manage memory as a heterogeneous resource with different tradeoffs.
-    I was interested in tackling the "memory wall" problem in the AI/ML fields, where the surging size of AI models demands more on-chip memory to store intermediate results, optimizing spatial and temporal locality and improving energy efficiency.
-    However, even as the rest of the logical circuits continue to scale down with more advanced process nodes, the density of SRAM has not been keeping pace, leading to the risk where memory may dominate the area and power budgets of future AI accelerators.
+    For the first part of my Ph.D. my primary research direction was memory systems for domain-specific hardware accelerators, in collaboration with researchers across the Computer Science and Electrical Engineering departments at Stanford.
+    This work was carried out within the Differentiated Access Memories (DAM) project, a multi-year Stanford effort to define how future computers will manage memory as a heterogeneous resource with different tradeoffs.
+    My involvement in that project ended in March 2026.
   </p>
 
   <p>
-    This points to a renewed interest in alternative on-chip memory devices that provide higher density and improved fJ/bit efficiency.
-    We argued that the future of memory will evolve from a uniform address space to a heterogeneous collection of different memories optimized for different uses.
-    This research sought to answer: What new memory technologies will we need, how do we compose them in systems, and what caching mechanisms do they need? How can applications and algorithms guide the composition of heterogeneous memories? How will software present and manage heterogeneous memories?
+    I was interested in the &ldquo;memory wall&rdquo; problem in the AI and ML fields, where the surging size of AI models demands more on-chip memory to store intermediate results.
+    Even as logic continues to scale down with more advanced process nodes, the density of SRAM has not kept pace, creating the risk that memory comes to dominate the area and power budgets of future AI accelerators.
+    That points to renewed interest in alternative on-chip memory devices offering higher density and better fJ/bit efficiency.
   </p>
 
-  <p>My contributions to this direction included, chronologically:</p>
+  <p>
+    We argued that memory will evolve from a uniform address space into a heterogeneous collection of devices optimized for different uses.
+    The questions this direction sought to answer: what new memory technologies will we need, how do we compose them in systems, and what caching mechanisms do they need?
+    How can applications and algorithms guide the composition of heterogeneous memories?
+    How will software present and manage them?
+  </p>
+
+  <p>My contributions to this direction, chronologically:</p>
 
   <ul>
-    <li><strong><a href="https://arxiv.org/abs/2504.14866">GainSight</a></strong>: Given 2T/3T gain cells as SRAM alternatives with higher density but limited retention times, as well as the prospects of composing different memory devices into heterogeneous on-chip memory hierarchies, I developed GainSight, the first comprehensive, open-source framework that aligns dynamic workload lifetime profiles with memory device characteristics to generate optimal on-chip cache compositions in accelerators, enabling exploration of the design space of heterogeneous memory hierarchies for accelerator designs.</li>
-    <li>Position papers on <strong><a href="https://arxiv.org/abs/2508.20425">the Future of Memory</a></strong> and <strong><a href="https://doi.org/10.1145/3764862.3768175">Towards Memory Specialization (DIMES '25)</a></strong>: I co-authored two position papers that argue for a paradigm shift in memory architectures away from uniform memory hierarchies toward specialized memory architectures that exploit application-specific access patterns and data lifetime characteristics, proposing long-term RAM (LtRAM) and short-term RAM (StRAM) as new memory classes with explicit OS support.</li>
-    <li><strong><a href="https://arxiv.org/abs/2507.10849">OpenGCRAM</a></strong>: Contributing to an open-source Gain Cell memory compiler for generating GCRAM designs with customizable retention times for AI workloads.</li>
-    <li><strong>Remi</strong>: A compiler analysis framework that jointly optimizes scheduling and retention-aware memory planning for AI accelerators with short-term RAM scratchpads, minimizing refresh overhead by exploiting per-row retention variation. Recognized as a Qualcomm Innovation Fellowship 2026 finalist proposal.</li>
+    <li>
+      <strong><a href="/projects/gainsight/">GainSight</a></strong>: given 2T/3T gain cells as denser SRAM alternatives with limited retention times, I built the first comprehensive, open-source framework that aligns dynamic workload lifetime profiles with memory device characteristics to generate optimal on-chip memory compositions, making the design space of heterogeneous on-chip hierarchies something you can measure rather than guess at.
+    </li>
+    <li>
+      Position papers on <strong><a href="/research/2025-09-23-future-of-memory/">the Future of Memory</a></strong> (BigMem '25) and <strong><a href="/research/2025-10-13-dimes-stram/">Towards Memory Specialization</a></strong> (DIMES '25): two co-authored papers arguing for a shift away from uniform memory hierarchies toward specialized architectures that exploit application-specific access patterns and data lifetime characteristics, proposing long-term RAM (LtRAM) and short-term RAM (StRAM) as new memory classes with explicit OS support.
+    </li>
+    <li>
+      <strong><a href="/research/2025-07-14-opengcram/">OpenGCRAM</a></strong>: contributing to an open-source gain cell memory compiler for generating GCRAM designs with customizable retention times for AI workloads.
+    </li>
+    <li>
+      <strong>Remi</strong>: a compiler analysis framework that jointly optimized scheduling and retention-aware memory planning for AI accelerators with short-term RAM scratchpads, minimizing refresh overhead by exploiting per-row retention variation.
+      The proposal was a Qualcomm Innovation Fellowship 2026 finalist.
+    </li>
   </ul>
+
+  <h2>Current Direction</h2>
+  <h3>Fall 2026</h3>
+
+  <p>
+    Through the Fall 2026 academic quarter I am rotating with Prof. Keith Winstein, reading into deterministic and content-addressed computation, distributed dataflow and task-graph execution, and the formal semantics of program execution.
+    I am interested in how deterministic dependencies, memoization, and precise evaluation rules might support operator fusion, symbolic execution, and termination prediction at the compiler level.
+  </p>
 
   <h2>Undergraduate-level Research</h2>
 
   <p>
-    Many of my research experiences prior to Stanford were done at the University of Michigan as an undergraduate student through the U-M's Civil and Environmental Engineering department and the University of Michigan Transportation Research Institute (UMTRI).
+    Most of my research experience prior to Stanford was at the University of Michigan, through the Civil and Environmental Engineering department and the University of Michigan Transportation Research Institute (UMTRI).
   </p>
 
-  <h3><a href="https://ccat.umtri.umich.edu/research/u-m/road-side-based-cybersecurity-in-connected-and-automated-vehicle-systems/">Road-side based cybersecurity in connected and automated vehicle systems</a>, January 2022 -- April 2024</h3>
+  <h3><a href="https://ccat.umtri.umich.edu/research/u-m/road-side-based-cybersecurity-in-connected-and-automated-vehicle-systems/">Road-side based cybersecurity in connected and automated vehicle systems</a>, January 2022 &ndash; April 2024</h3>
 
   <p>
     This project encompassed my research work done under the guidance of <a href="http://www-personal.umich.edu/~nmasoud/">Prof. Neda Masoud</a> at the University of Michigan <a href="https://ccat.umtri.umich.edu">Center for Connected and Automated Transportation</a>.
-    The overarching objective of this research project is "to develop a holistic framework that integrates physics-based data-driven modeling and dynamic decision making under uncertainty and partial information to improve cybersecurity in connected and automated vehicles (CAV)."
+    The overarching objective of the project was &ldquo;to develop a holistic framework that integrates physics-based data-driven modeling and dynamic decision making under uncertainty and partial information to improve cybersecurity in connected and automated vehicles (CAV).&rdquo;
   </p>
 
-  <h3>UMTRI Bioscience Group, February 2022 -- August 2022</h3>
+  <h3>UMTRI Bioscience Group, February 2022 &ndash; August 2022</h3>
 
   <p>
     I worked as a research assistant at the <a href="https://www.umtri.umich.edu/research/groups/biosciences/">University of Michigan Transportation Research Institute's Biosciences Group</a> over the Winter, Spring, and Summer 2022 terms.
-    My group primarily "conducts research on the biomechanics of motor vehicle occupants as it relates to occupant injuries, crash protection, and occupant accommodation."
+    The group &ldquo;conducts research on the biomechanics of motor vehicle occupants as it relates to occupant injuries, crash protection, and occupant accommodation.&rdquo;
   </p>
 
   <h1>Publications, Preprints and Conference Presentations</h1>
