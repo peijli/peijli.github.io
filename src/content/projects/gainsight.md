@@ -25,7 +25,7 @@ Composing the on-chip hierarchy from denser, shorter-retention devices instead r
 
 ## Where it has been used
 
-- The 2026 paper [Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler](/research/2026-02-24-gcram-exploration/) adopts GainSight as its evaluation methodology, using it to extract the L1 and L2 cache performance demands of the AI workloads it evaluates.
+- The gain-cell memory compiler study described in [OpenGCRAM](/research/2025-07-14-opengcram/) adopts GainSight as its evaluation methodology, using it to extract the L1 and L2 cache performance demands of the AI workloads it evaluates.
 - The argument in [Towards Memory Specialization](/research/2025-10-13-dimes-stram/) (DIMES '25) rests on the lifetime characterization GainSight produced.
 - An undergraduate researcher I mentored in summer 2025 built a trace pipeline that feeds directly into the GainSight workflow, extending a commercial toolchain that had no cycle-accurate memory-access logging of its own.
 

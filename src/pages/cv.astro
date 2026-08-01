@@ -51,9 +51,13 @@ const coursework = allProjects
 
   <ul>
     <li>
-      <strong>Qualcomm Innovation Fellowship (North America) 2026 &mdash; Finalist</strong>, for the proposal
-      <em>&ldquo;Refresh-Aware Scheduling and Memory Planning for AI Accelerators with On-Chip Short-Term RAM&rdquo;</em>
-      (project Remi), a two-institution collaboration.
+      <strong>Qualcomm Innovation Fellowship (North America) &mdash; Finalist</strong> (April 2026), for the proposal
+      <em>&ldquo;Refresh-Aware Scheduling and Memory Planning for AI Accelerators with Short-Term RAM&rdquo;</em>
+      (project Remi), with collaborators Nathan Kaplan and Prof. Sharad Malik, Princeton University.
+    </li>
+    <li>
+      <strong>Sunlin and Priscilla Chou Graduate Fellowship</strong> (September 2024), first-year Ph.D. fellowship
+      at Stanford University.
     </li>
   </ul>
 
@@ -61,14 +65,18 @@ const coursework = allProjects
 
   <ul>
     <li>
-      <strong>Research Intern</strong>, TSMC Corporate Research, San Jose, CA (June &ndash; September 2026)
+      <strong>AI Hardware Research Intern</strong>, TSMC Corporate Research, San Jose, CA (June &ndash; September 2026)
       <ul>
         <li>
           Extended an in-house analytical model for ASIC and GPU performance to support workload profiling
           for large language model inference, and investigated embedded DRAM opportunities across data types
           including activations, KV cache, and weights.
         </li>
-        <li>This work is proprietary; its results and architectural specifics are not disclosed here.</li>
+        <li>
+          Built an analytical cost model for multi-chip scaling behavior, unifying several interconnect
+          topology families under a single latency and energy notation.
+        </li>
+        <li>This work is proprietary; its detailed results and architectural specifics are not disclosed here.</li>
       </ul>
     </li>
     <li>
@@ -127,10 +135,12 @@ const coursework = allProjects
           composition framework.
         </li>
         <li>
-          On the <a href="/projects/gemma/">GEMMA 16nm AI accelerator tapeout</a>, joined roughly four months
-          before tapeout and redesigned the embedded DRAM partition, the design-for-test module, and the
-          refresh controller, whose refresh policy is driven by data-lifetime patterns identified through
-          GainSight profiling. Also designed a high-throughput SIMD compute unit using high-level synthesis.
+          On the <a href="/projects/gemma/">GEMMA 16nm AI accelerator tapeout</a> (targeting Mamba-class
+          state-space model inference), joined roughly four months before tapeout and redesigned the embedded
+          DRAM partition, the design-for-test module, and the refresh controller, whose refresh policy is
+          driven by data-lifetime patterns identified through GainSight profiling. Also implemented the MXFP6
+          quantization and arithmetic logic, authored the AXI and DMA transaction specifications, and designed
+          a high-throughput SIMD compute unit using high-level synthesis.
         </li>
       </ul>
     </li>
@@ -198,12 +208,9 @@ const coursework = allProjects
   <h2>Skills</h2>
 
   <ul>
-    <li><strong>Languages</strong>: C, C++, Python, SystemVerilog, Verilog, SystemC, MATLAB; some exposure to Rust</li>
-    <li><strong>Compilers</strong>: LLVM, MLIR (linalg and tensor dialects), liveness analysis, pass authoring, loop transformation</li>
-    <li><strong>Formal methods and solvers</strong>: Z3, SMT, Optimization Modulo Theories, integer linear programming formulation; exposure to hardware formal verification tooling and TLA+</li>
-    <li><strong>Hardware</strong>: RTL design and verification, high-level synthesis via Siemens Catapult, physical design and signoff at 16nm, design for test, FPGA implementation via Xilinx Vivado, Synopsys ASIP Designer and the nML architecture description language, out-of-order superscalar RISC-V core implementation</li>
-    <li><strong>Simulation and performance</strong>: gem5, Accel-Sim, SCALE-Sim, NVIDIA Nsight, Cachegrind, roofline modeling</li>
-    <li><strong>Infrastructure</strong>: CI/CD pipelines, Selenium, Docker, Git, test automation</li>
+    <li><strong>Software</strong>: Python (PyTorch, JAX), C/C++, CUDA, LLVM/MLIR, Z3 SMT solver, RISC-V/ARM/x86 assembly</li>
+    <li><strong>Hardware</strong>: SystemVerilog, Verilog, SystemC/TLM, AXI, high-level synthesis (Siemens Catapult, Xilinx Vivado), Synopsys ASIP Designer, logic synthesis, design for test</li>
+    <li><strong>Tools</strong>: Git, Docker, Linux administration, Slurm, CI/CD, Jenkins, Atlassian tools, qTest, Selenium</li>
     <li><strong>Spoken languages</strong>: English, Mandarin Chinese</li>
   </ul>
 
@@ -244,6 +251,23 @@ const coursework = allProjects
         </li>
       ))
     }
+  </ul>
+
+  <h2>Service &amp; Leadership</h2>
+
+  <ul>
+    <li>
+      <strong>Props &amp; Uniforms Staff</strong>, Leland Stanford Junior University Marching Band, Stanford, CA
+      (March 2025 &ndash; Present)
+    </li>
+    <li>
+      <strong>Undergraduate Student Member</strong>, Tau Beta Pi Engineering Honor Society, Michigan Gamma
+      Chapter, Ann Arbor, MI (September 2022 &ndash; May 2024)
+    </li>
+    <li>
+      <strong>Student Life Committee Member</strong>, University of Michigan Engineering Student Government,
+      Ann Arbor, MI (September 2020 &ndash; May 2022)
+    </li>
   </ul>
 </BaseLayout>
 
