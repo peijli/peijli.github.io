@@ -2,9 +2,12 @@
 title: "GainSight: A Unified Framework for Data Lifetime Profiling and Heterogeneous Memory Composition"
 excerpt: 'The first comprehensive, open-source framework that aligns dynamic, fine-grained workload lifetime profiles with memory device characteristics to enable generation of optimal StRAM memory compositions.'
 date: 2025-08-05
-venue: 'arXiv preprint'
+venue: 'arXiv'
 paperUrl: 'https://arxiv.org/abs/2504.14866'
 citation: 'Peijing Li, Matthew Hung, Yiming Tan, Konstantin Hoßfeld, Jake Cheng Jiajun, Shuhan Liu, Lixian Yan, Xinxin Wang, Philip Levis, H.-S. Philip Wong, and Thierry Tambe. 2025. GainSight: A Unified Framework for Data Lifetime Profiling and Heterogeneous Memory Composition. https://doi.org/10.48550/arXiv.2504.14866'
+artifactType: preprint
+reviewStatus: not-peer-reviewed
+publicationStatus: unpublished
 ---
 
 ## Abstract
