@@ -34,4 +34,5 @@ Composing the on-chip hierarchy from denser, shorter-retention devices instead r
 The framework is described in [GainSight: A Unified Framework for Data Lifetime Profiling and Heterogeneous Memory Composition](/research/2025-08-05-gainsight/).
 
 The work was funded under a US Department of Defense microelectronics program and the paper carries a public-release distribution statement.
-The published paper points at a source repository in my former research group's namespace, which I no longer control; I am mirroring the code to my own account and this page will link there once that is done.
+<!-- The published paper points at a source repository in my former research group's namespace, which I no longer control, so the [arXiv abstract](https://arxiv.org/abs/2504.14866) is the canonical reference for this work. -->
+

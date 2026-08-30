@@ -33,25 +33,13 @@ const projects = defineCollection({
     category: z.enum(['flagship', 'coursework']).default('coursework'),
     summary: z.string().optional(),
     repoUrl: z.string().url().optional(),
-  }),
-});
-
-// Professional case studies that do not belong in the academic `projects`
-// collection. Entries render at /engineering/<slug>/ only when `draft` is false.
-const engineering = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/engineering' }),
-  schema: z.object({
-    title: z.string(),
-    date: z.coerce.date(),
-    organization: z.string(),
-    type: z.string(),
-    summary: z.string(),
-    featured: z.boolean().default(false),
     // Scope note for work whose internal results cannot be disclosed.
     disclosure: z.string().optional(),
-    // Defaults to true so an incomplete case study cannot be routed publicly.
-    draft: z.boolean().default(true),
+    // Defaults to false; an incomplete entry (e.g. an unfinished case study)
+    // sets this to true so it gets no public route and is excluded from
+    // homepage selection until its content is ready.
+    draft: z.boolean().default(false),
   }),
 });
 
-export const collections = { research, projects, engineering };
+export const collections = { research, projects };
