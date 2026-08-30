@@ -1,0 +1,61 @@
+---
+import type { WorkCard } from '../data/selectedWork';
+
+interface Props {
+  cards: WorkCard[];
+}
+
+const { cards } = Astro.props;
+---
+
+<ul class="work-list">
+  {
+    cards.map((card) => (
+      <li class="work-item">
+        <h3><a href={card.href}>{card.title}</a></h3>
+        <p class="work-kind">{card.kind}</p>
+        <p class="work-summary">{card.summary}</p>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .work-list {
+    list-style: none;
+    margin: 0 0 1.5em;
+    padding: 0;
+  }
+
+  .work-item {
+    border-left: 3px solid var(--color-accent);
+    padding-left: 0.9em;
+    margin-bottom: 1.2em;
+  }
+
+  .work-item h3 {
+    margin: 0 0 0.2em;
+    font-size: 1.05rem;
+  }
+
+  .work-kind {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    margin: 0 0 0.3em;
+  }
+
+  .work-summary {
+    margin: 0;
+  }
+
+  @media (max-width: 600px) {
+    .work-item {
+      padding-left: 0.7em;
+    }
+
+    .work-item h3 {
+      font-size: 1rem;
+    }
+  }
+</style>
