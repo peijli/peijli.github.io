@@ -8,10 +8,7 @@ const projects = (await getCollection('projects'))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 ---
 
-<BaseLayout
-  title="Academics and Coursework"
-  description="Graduate and undergraduate coursework, including formal verification coursework in CS 357S: Formal Methods for Computer Systems."
->
+<BaseLayout title="Academics and Coursework">
   <h1>Academics and Coursework</h1>
 
   <h2>Selected List of Courses Taken</h2>
@@ -68,29 +65,6 @@ const projects = (await getCollection('projects'))
       </tbody>
     </table>
   </div>
-
-  <!-- <h2>Formal Verification Coursework</h2>
-
-  {/* TODO(candidate): review this note in your own voice. Its facts are fixed:
-      these methods have coursework provenance only and must not be attached to
-      the GEMMA tapeout, and the course project itself is unpublished, so no
-      implementation detail or source artifact may be named or linked. */}
-
-  <p>
-    <a href="https://web.stanford.edu/class/cs357s/">CS 357S: Formal Methods for Computer Systems</a>
-    (Winter 2026) is where my property-based and coverage-based verification experience comes from.
-    In the assignments I used <a href="https://www.cadence.com/en_US/home/tools/system-design-and-verification/formal-and-static-verification/jasper-verification-platform.html">Cadence JasperGold</a>,
-    translated natural-language specifications written by the instructor into SystemVerilog Assertions, and
-    wrote functional coverage using both covergroups and cover properties.
-    This is coursework provenance. It is separate from the pre-silicon design and verification work on the
-    <a href="/projects/gemma/">GEMMA accelerator</a>, which used simulation-based result comparison and
-    randomized arithmetic stimulus rather than assertions or coverage.
-  </p>
-
-  <p>
-    My course research project for CS 357S became <a href="/projects/flan/">Flan</a>, which has continued past
-    the course. It is unpublished, and its source and manuscript are not released.
-  </p> -->
 
   <h2>Undergraduate Course Projects and Talks</h2>
 
