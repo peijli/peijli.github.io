@@ -3,7 +3,8 @@ export const siteTitle = 'Peijing Li Portfolio';
 export const profile = {
   name: 'Peijing Li',
   avatar: '/images/profile.jpg',
-  bio: 'MS in Electrical Engineering, Stanford, expected December 2026',
+  bio: 'Performance modeling and domain-specific computer architecture',
+  degree: 'M.S. Electrical Engineering, Stanford, expected December 2026',
   location: 'Stanford, CA',
   employer: 'Stanford University',
   links: {
