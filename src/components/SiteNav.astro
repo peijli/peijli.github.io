@@ -16,13 +16,7 @@ const currentPath = Astro.url.pathname;
             <li>
               <a
                 href={item.href}
-                class:list={[
-                  {
-                    active: item.exact
-                      ? currentPath === item.href
-                      : currentPath.startsWith(item.href),
-                  },
-                ]}
+                class:list={[{ active: currentPath.startsWith(item.href) }]}
               >
                 {item.title}
               </a>
@@ -89,19 +83,5 @@ const currentPath = Astro.url.pathname;
   .nav-links a:hover,
   .nav-links a.active {
     color: var(--color-accent);
-  }
-
-  /* Five destinations plus the theme toggle no longer fit on one phone-width
-     row, so let them wrap instead of overflowing horizontally. */
-  @media (max-width: 640px) {
-    .nav-right {
-      flex-wrap: wrap;
-      gap: 0.75rem;
-    }
-
-    .nav-links {
-      flex-wrap: wrap;
-      gap: 0.9rem;
-    }
   }
 </style>
