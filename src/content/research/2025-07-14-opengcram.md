@@ -2,12 +2,9 @@
 title: "OpenGCRAM: An Open-Source Gain Cell Compiler Enabling Design-Space Exploration for AI Workloads"
 excerpt: 'An open-source GCRAM compiler capable of generating GCRAM bank circuit designs and DRC- and LVS-clean layouts for commercially available foundry CMOS.'
 date: 2025-07-14
-venue: 'arXiv'
+venue: 'arXiv preprint'
 paperUrl: 'https://arxiv.org/abs/2507.10849'
 citation: 'Xinxin Wang, Lixian Yan, Shuhan Liu, Luke Upton, Zhuoqi Cai, Yiming Tan, Shengman Li, Koustav Jana, Peijing Li, Jesse Cirimelli-Low, Thierry Tambe, Matthew Guthaus, and H.-S. Philip Wong. 2025. OpenGCRAM: An Open-Source Gain Cell Compiler Enabling Design-Space Exploration for AI Workloads. https://doi.org/10.48550/arXiv.2507.10849'
-artifactType: preprint
-reviewStatus: not-peer-reviewed
-publicationStatus: unpublished
 ---
 
 ## Abstract

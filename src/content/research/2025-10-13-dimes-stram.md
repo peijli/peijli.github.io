@@ -5,9 +5,6 @@ date: 2025-10-13
 venue: 'Workshop on Disruptive Memory Systems (DIMES 25)'
 paperUrl: 'https://doi.org/10.1145/3764862.3768175'
 citation: "Peijing Li, Muhammad Shahir Abdurrahman, Rachel Cleaveland, Sergey Legtchenko, Philip Levis, Ioan Stefanovici, Thierry Tambe, David Tennenhouse, Caroline Trippel, and H.-S. Philip Wong. 2025. Towards Memory Specialization: A Case for Long-Term and Short-Term RAM. In Workshop on Disruptive Memory Systems (DIMES '25), October 13, 2025. Association for Computing Machinery, Seoul, Korea (South), 10. https://doi.org/10.1145/3764862.3768175"
-artifactType: paper
-reviewStatus: peer-reviewed
-publicationStatus: published
 ---
 
 ## Abstract
